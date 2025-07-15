@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title-contact">Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
+            <img src="assets/images/menu.png" alt="menu">
+        </button>
+
+        <nav class="nav-bar">
+            <a href="index.html" class="logo"> 
+                <img src="assets/images/Logo1.png" alt="Medica Logo">
+            </a>
+            <ul class="nav-links">
+                <li>
+                    <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+                        <img src="assets/images/closeIcon.png" alt="close">
+                    </button>
+                </li>
+                <li><a data-i18n="home-nav" href="index.html">HOME</a></li>
+                <li><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
+                <li class="services-header">
+                    <a data-i18n="services-provided-nav" href="services.html">SERVICES PROVIDED
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="drop-down">
+                        <li><a data-i18n="service1" href="services.html#consultation">Pharmacist Consultation</a></li>
+                        <hr>
+                        <li><a data-i18n="service2" href="services.html#minor-ailments">Minor Ailments Care</a></li>
+                        <hr>
+                        <li><a data-i18n="service3" href="services.html#blood-pressure">Blood Pressure Readings</a></li>
+                        <hr>
+                        <li><a data-i18n="service4" href="services.html#anticoagulation">Anticoagulation Management</a></li>
+                        <hr>
+                        <li><a data-i18n="service5" href="services.html#blister-packs">Weekly Blister Packs</a></li>
+                        <hr>
+                        <li><a data-i18n="service6" href="services.html#home-delivery">Free Home Delivery</a></li>
+                        <hr>
+                        <li><a data-i18n="service7" href="services.html#compression">Compression Stockings & Socks</a></li>
+                        <hr>
+                        <li><a data-i18n="service8" href="services.html#vaccinations">Vaccinations and Immunizations</a></li>
+                        <hr>
+                        <li><a data-i18n="service9" href="services.html#multilingual">Multilingual Services</a></li>   
+                        <hr>
+                        <li><a data-i18n="refill" href="refill.html" class="btn">Refill Your Prescriptions</a></li>
+                        <li><a data-i18n="transfer" href="transfer.html" class="btn">Transfer Your Prescriptions</a></li>                  
+                    </ul>  
+                </li>
+                <li><a data-i18n="contact-us-nav" class="active" aria-current="page" href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+        <div class="pic-background">
+            <img src="assets/images/main1.jpeg" alt="Medica Staff Group Picture" width="100%" height="300">
+        </div>
+
+        <div class="header-title">
+
+            <div class="lang-menu">
+                <div class="selected-lang" onclick="toggleElement()">
+                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
+                    <span id="selected-lang-label">English</span>
+                    <span class="material-icons dropdown-icon1">
+                        arrow_drop_down
+                    </span>
+                </div>
+
+                <ul id="hiddenElement">
+                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+                </ul>
+            </div>
+            
+            <h1 class="page-title" data-i18n="contact-us-header">Contact Us</h1>
+
+            <div class="buttons">
+                <span class="text-resize-btn" data-size="1em">A</span>
+                <span class="text-resize-btn" data-size="1.25em">A</span>
+                <span class="text-resize-btn" data-size="1.75em">A</span>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- main content apart from header and footer -->
+    <main>
+        <div id="text">
+            <section class="get-in-touch">
+                <div class="one">
+                    <p class="get-in-touch-p1" data-i18n="numbers-opening">For the fastest response, give us a call during our regular business hours:</p>
+                    <p class="get-in-touch-p2" data-i18n="phone-fax-email"> 
+                        <b>Phone: </b> <a href="tel:+15192557777">(519) 255-7777</a>  
+                        <br>
+                        <b>Fax: </b> (519) 255-7778 
+                        <br>
+                        <b>Email:</b><a href="mailto:medicarxwindsor@gmail.com">medicarxwindsor@gmail.com</a>
+                    </p>
+                </div>
+                <div class="one">
+                <h2 data-i18n="store-hours">Store Hours</h2>
+                    <table>
+                        <tr>
+                            <td data-i18n="mon-fri">Monday-Friday</td>
+                            <td data-i18n="mon-fri-hours">9am-7pm</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="sat">Saturday</td>
+                            <td data-i18n="sat-hours">9am-4pm</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="sun">Sunday</td>
+                            <td data-i18n="sun-hours">10am-2pm</td>
+                        </tr>
+                    </table> 
+                </div>
+            </section>
+
+            <section class="form">
+                <p data-i18n="pre-form-message">Reaching out after-hours? Send us an email or complete the contact form below. We’ll get back to you as soon as possible.</p>
+                <!-- this goes to our email, need to add lots of validation -->
+                <form method="POST" action="php/contact.php" enctype="multipart/form-data" name="EmailForm">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label data-i18n="contact-label-name">Name:</label>
+                        <input type="text" name="name" placeholder="Enter your name" data-i18n-placeholder="contact-placeholder-name" required>
+                        <br>
+
+                        <label data-i18n="contact-label-email">Email:</label>
+                        <input type="email" name="email" placeholder="Enter your email" data-i18n-placeholder="contact-placeholder-email" required>
+                        <br>
+
+                        <label data-i18n="contact-label-subject">Subject:</label>
+                        <input type="text" name="subject" placeholder="Enter the subject" data-i18n-placeholder="contact-placeholder-subject" required>
+                        <br>
+
+                        <label data-i18n="contact-label-message">Message:</label>
+                        <textarea name="message" rows="6" cols="20" placeholder="Write your message" data-i18n-placeholder="contact-placeholder-message" required></textarea>
+                        <br>
+
+                        <label data-i18n="contact-label-upload">Upload a File:</label>
+                        <input type="file" name="attachment">
+                    </fieldset>
+                    <div class="g-recaptcha" data-sitekey="6Lf8IoMrAAAAAMdBDIKbS1B-M-S9aP4xgtzUQZ9Q"></div>
+                    <input type="submit" value="Submit" data-i18n="button-send">
+                    <input type="reset" value="Reset" data-i18n-value="button-reset">
+                </form>
+                <p id="successStat" class="hidden success-message"></p>
+                <br/>
+            </section>
+
+
+            <section class="map-parking">
+                <div class="one">
+                    <h2 data-i18n="visit-our-store">Visit Our Store:</h2>
+                    <p data-i18n="map-desc">Use the map below to find our location:</p>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9513.401653211029!2d-83.01891449941385!3d42.316433019633976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2ceb72d646df%3A0x3cb522ed76ea297!2s1210%20Erie%20St%20E%2C%20Windsor%2C%20ON%20N9A%203Z5!5e0!3m2!1sen!2sca!4v1748614702754!5m2!1sen!2sca" 
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="one">
+                    <h2 data-i18n="free-parking">Free Parking Available</h2>
+                    <p data-i18n="free-parking-desc"> Free parking is available for Medica patients and staff. <br> You can access the parking lot behind the bocce courts via the [], [], and [] alleyways.</p>
+                    <img src="assets/images/parking.png" class="parking-img" alt="Medica parking lot" width="500" height="300">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-contact-info">
+            <div class="footer-address">
+                <h2 data-i18n="address">Address</h2>
+                <p>
+                    1210 Erie St East,
+                    <br>
+                    Windsor, ON, Canada, N9A 3Z5
+                </p>
+                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="btn" target="_blank" rel="noopener noreferrer">
+                    Get Directions
+                </a>
+            </div>
+
+            <div class="footer-hours">
+                <h2 data-i18n="store-hours">Store Hours</h2>
+                <p data-i18n="store-hours-text">
+                    <strong>Sunday:</strong> 10am–2pm<br>
+                    <strong>Monday to Friday:</strong> 9am–7pm<br>
+                    <strong>Saturday:</strong> 9am–4pm
+                </p>
+            </div>
+
+            <div class="footer-contact-us">
+                <h2 data-i18n="contact-us">Contact Us</h2>
+                <p data-i18n="phone-fax">
+                    <strong>Phone: </strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
+                    <strong>Fax: </strong> (519) 255-7778
+                </p>
+                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="btn">Email Us</a>
+            </div>
+
+            <div class="footer-facebook">
+                <a href="https://www.facebook.com/profile.php?id=100057429557260" class="facebook-link" target="_blank" rel="noopener noreferrer"> 
+                    <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
+                </a>
+            </div>
+
+        </section>
+        <div class="site-info">
+            <p data-i18n="footer-copyright">&copy; 2019 <span class="emphasis-alt">Medica Pharmacy</span>. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/textResize.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+{
+    "title-index": "Medica Pharmacie",
+    "home-nav": "ACCUEIL",
+    "about-us-nav": "À PROPOS",
+    "services-provided-nav": "SERVICES OFFERTS",
+    "contact-us-nav": "NOUS CONTACTER",
+
+    "welcome-msg": "Bienvenue dans la famille Medica!",
+
+    "eng": "Anglais",
+    "fr": "Français",
+    "it": "Italien",
+    "ar": "Arabe",
+
+    "address": "Adresse",
+    "get-directions": "Obtenir l'itinéraire",
+    "store-hours": "Heures d'ouverture",
+    "store-hours-text": "Lun - Ven : 9h à 19h<br>Sam : 9h à 16h<br>Dim : 10h à 14h",
+    "contact-us": "Contact",
+    "phone-fax": "Téléphone : (519) 255-7777<br>Fax : (519) 255-7778",
+    "email-us": "Envoyez-nous un courriel",
+    "facebook-desc": "Suivez-nous sur Facebook <br> pour les dernières mises à jour, <br> nouvelles et histoires de <br> la Pharmacie Medica.",
+
+    "services-provided": "Services Offerts",
+    "services-desc": "Chez Medica Pharmacie, nous offrons une gamme de services de santé adaptés à vos besoins. Des renouvellements d'ordonnances aux consultations personnalisées, découvrez ce que nous pouvons faire pour vous.",
+    "service1": "Consultation avec un pharmacien",
+    "service2": "Soins pour affections mineures",
+    "service3": "Lectures de la pression artérielle",
+    "service4": "Gestion de l'anticoagulation",
+    "service5": "Piluliers hebdomadaires",
+    "service6": "Livraison gratuite à domicile",
+    "service7": "Bas et chaussettes de compression",
+    "service8": "Vaccinations et immunisations",
+    "service9": "Services multilingues",
+
+    "refill": "Renouvelez vos ordonnances",
+    "transfer": "Transférez vos ordonnances",
+
+    "mini-about-title": "Fièrement local, aimée localement",
+    "mini-about-desc": "Medica Pharmacie est fière d’être une entreprise locale profondément enracinée dans la communauté de la rue Érié et de la communauté italienne. Nous sommes reconnaissants de faire partie d’une communauté aussi exceptionnelle remplie de personnes formidables, et nous visons toujours à soutenir et développer davantage cette communauté à travers nos soins et nos actions.<br>Nous avons hâte de vous accueillir dans la famille Medica!",
+
+    "what-makes-us-diff": "Ce qui nous distingue",
+
+    "what-1": "<b>Service rapide :</b> Les nouvelles ordonnances sont souvent prêtes en quelques minutes.",
+    "what-2": "<b>Soin personnalisé :</b> Notre pharmacien prend le temps d'écouter, de répondre à vos questions et de s'assurer que vous comprenez bien vos médicaments.",
+    "what-3": "<b>Nous venons à vous :</b> Si vous avez une ordonnance mais ne pouvez pas venir à la pharmacie, nous viendrons à vous. Notre équipe récupérera votre ordonnance et livrera vos médicaments une fois prêts.",
+    "what-4": "<b>Toujours là pour vous :</b> Nous sommes ouverts sept jours sur sept, y compris les jours fériés, alors il y a toujours quelqu'un pour vous aider quand vous en avez besoin.",
+
+    "app-promo": "Restez connecté avec Medica Pharmacie, à tout moment, où que vous soyez!",
+
+    "how-it-works": "Comment ça fonctionne",
+    "how-1": "Connectez-vous ou continuez en tant qu'invité",
+    "how-2": "Appuyez sur « Emplacements » et recherchez Medica Pharmacie par nom ou adresse",
+    "how-3": "Sélectionnez notre pharmacie",
+    "how-4": "Commencez à renouveler vos ordonnances, soumettez-en une nouvelle ou contactez-nous directement via l'application",
+
+    "footer-copyright": "© 2019 <span class=\"emphasis-alt\">Medica Pharmacie</span>. Tous droits réservés",
+
+    "title-about": "À propos de nous",
+    "about-us-title": "À propos de nous",
+
+    "our-mission": "Notre mission",
+    "our-mission-text": "À la Pharmacie Medica, nous nous engageons à offrir des soins de la plus haute qualité à chaque patient qui franchit nos portes. Nous croyons en l’établissement de relations significatives avec chaque individu et ne traiterons jamais personne comme un simple numéro.<br>Les soins aux patients sont toujours notre priorité. Nous chercherons toujours de nouvelles façons d'améliorer et d'élargir les soins que nous offrons afin de répondre aux besoins de notre communauté.<br>Une pharmacie représente l’un des points d’accès aux soins de santé les plus accessibles, ce qui fait de nous les premiers à répondre aux questions et préoccupations de tous les patients qui viennent nous consulter. Chaque patient mérite également notre temps et nos efforts. Nous nous engageons à vous aider à élaborer un plan de soins personnalisé qui vous convient. Que vous veniez nous voir pour la première fois ou que vous soyez avec nous depuis des années, nous vous invitons à poser des questions, à donner votre avis et à rester en contact. Nous sommes toujours ravis d'avoir de vos nouvelles.",
+
+    "meet-your-rph": "Rencontrez votre pharmacien !",
+
+    "fv-caption": "Francesco Vella, pharmacien et propriétaire",
+    "fv-desc": "",
+
+    "ak-caption": "Amar Khaira, pharmacien",
+    "ak-desc": "",
+
+    "ji-caption": "Jeremy Ing, pharmacien",
+    "ji-desc": "",
+
+    "bm-caption": "Brandon Mousseau, pharmacien",
+    "bm-desc": "",
+
+    "the-bocce-court": "Le terrain de bocce",
+    "bocce-text": "Vous avez peut-être remarqué les terrains de bocce à côté de la pharmacie. Le bocce est un jeu traditionnel italien apprécié également par de nombreuses autres cultures, connu sous le nom de « boules » en France et similaire au jeu de quilles sur gazon en Angleterre. C’est un jeu d’adresse, de stratégie et de plaisir.<br>Ces terrains ont été construits par le propriétaire de la Pharmacie Medica, Francesco Vella, afin d’embellir le quartier est de la rue Érié et de créer un espace qui rassemble des gens de partout. Que vous participiez à une partie ou que vous passiez simplement pour une crème glacée de l'autre côté de la rue, vous êtes toujours le bienvenu pour profiter de l’ambiance.",
+
+
+
+    "title-services": "Services",
+    "services-header": "Services Offerts",
+
+    "service1-desc": "Nos pharmaciens sont toujours heureux de parler aux patients pour répondre à leurs questions et préoccupations. Nous proposons des bilans de médication pour vous aider à mieux comprendre vos prescriptions et à vous assurer qu'elles fonctionnent efficacement pour vous. Pour répondre à vos besoins, nos pharmaciens sont disponibles pour des consultations par téléphone ou en personne, dans les salles de consultation privées de la pharmacie Medica.",
+
+    "service2-desc": "Nos pharmaciens sont qualifiés pour évaluer et prescrire pour une variété de problèmes de santé courants, rendant les soins plus accessibles lorsque vous en avez besoin.<br>Nous pouvons vous aider avec:",
+    "service2-list1": "Affections courantes : allergies saisonnières, conjonctivite, brûlures d’estomac, nausées liées à la grossesse, et problèmes buccaux comme les boutons de fièvre ou le muguet.",
+    "service2-list2": "Problèmes de peau : acné, éruptions cutanées, eczéma, dermatite (y compris l'érythème fessier), piqûres d’insectes et urticaire.",
+    "service2-list3": "Santé des femmes : infections urinaires simples, infections à levures, douleurs menstruelles et hémorroïdes.",
+    "service2-list4": "Problèmes pédiatriques : oxyures et irritations cutanées chez les jeunes enfants.",
+    "service2-list5": "Blessures mineures et soins préventifs : entorses musculaires, foulures articulaires et piqûres de tiques.",
+    "service2-closing": "N'hésitez pas à nous appeler si vous avez des questions spécifiques.",
+
+    "service3-desc": "Tous les patients sont les bienvenus pour utiliser notre équipement de surveillance de la pression artérielle à leur convenance. De plus, nos pharmaciens vous aideront à comprendre les résultats et feront des recommandations de mode de vie pour atteindre vos objectifs de santé.",
+
+    "service4-desc": "Nous proposons des services d'anticoagulation pour les patients prenant des anticoagulants tels que la warfarine. <br>Cela inclut :",
+    "service4-list1": "Surveillance régulière de l'INR",
+    "service4-list2": "Ajustements immédiats de la dose (pas besoin d’attendre un rendez-vous médical)",
+    "service4-list3": "Éducation personnalisée et conseils sur le mode de vie pour atteindre les objectifs visés",
+    "service4-closing-download": "Parlez à un pharmacien pour plus de détails. <br>[Téléchargez notre formulaire de recommandation ici – Formulaire-Recommandation-Anticoagulant-Medica]",
+
+    "service5-desc": "Les piluliers, fabriqués et vérifiés à la main par notre personnel, organisent vos médicaments dans des cases claires et étiquetées pour chaque moment de la journée (Petit-déjeuner, Déjeuner, Dîner, Coucher), pour une ou deux semaines à la fois. Ils sont recommandés pour les patients ayant des schémas thérapeutiques complexes ou déroutants afin de favoriser une prise correcte et réduire les erreurs. <br>Intéressé par les piluliers ? Parlez-en à l’un de nos pharmaciens aujourd’hui.",
+
+    "service6-desc": "Nous offrons la livraison gratuite de médicaments pour les patients qui ne peuvent pas se rendre en pharmacie. <br>Les heures de livraison standard sont :",
+    "mon-fri": "Lundi à vendredi",
+    "mon-fri-hours": "10h–18h",
+    "sat": "Samedi",
+    "sat-hours": "10h–15h",
+    "sun": "Dimanche",
+    "sun-hours": "11h–13h",
+    "service6-closing": "Vous avez des besoins particuliers ? Dites-le-nous, notre équipe fera de son mieux pour vous accommoder.",
+
+    "service7-desc": "Nous fournissons des bas et chaussettes de compression sur ordonnance pour les patients ayant besoin d’un soutien pour la circulation ou l’enflure. Veuillez nous visiter en personne pour des mesures professionnelles avant la commande. <br>Appelez à l'avance pour fixer un rendez-vous de mesure.",
+
+    "service8-desc": "Nos pharmaciens certifiés sont formés et expérimentés dans l’administration de divers vaccins pour vous protéger, vous et votre famille, contre des maladies évitables. <br>Veuillez noter : certains vaccins spécialisés peuvent nécessiter une recommandation ou une visite chez un professionnel de santé. N’hésitez pas à demander à notre personnel quels vaccins sont disponibles et comment rester à jour.",
+
+    "service9-desc": "Notre pharmacie est fière d’offrir des services en anglais, français et italien.",
+
+        
+    "title-contact": "Nous Contacter",
+    "contact-us-header": "Nous Contacter",
+
+    "numbers-opening": "Pour une réponse rapide, appelez-nous pendant nos heures d'ouverture :",
+    "phone-fax-email": "<b>Téléphone : </b> <a href=\"tel:+15192557777\">(519) 255-7777</a><br><b>Fax : </b> (519) 255-7778<br><b>Courriel :</b> <a href=\"mailto:medicarxwindsor@gmail.com\">medicarxwindsor@gmail.com</a>",
+
+    "pre-form-message": "Vous nous contactez en dehors des heures d’ouverture ? Envoyez-nous un courriel ou remplissez le formulaire ci-dessous. Nous vous répondrons dès que possible.",
+
+    "contact-label-name": "Nom :",
+    "contact-placeholder-name": "Entrez votre nom",
+
+    "contact-label-email": "Courriel :",
+    "contact-placeholder-email": "Entrez votre courriel",
+
+    "contact-label-subject": "Sujet :",
+    "contact-placeholder-subject": "Entrez le sujet",
+
+    "contact-label-message": "Message :",
+    "contact-placehlder-message": "Écrivez votre message",
+
+    "contact-label-upload": "Joindre un fichier :",
+
+    "button-send": "Envoyer",
+    "button-reset": "Réinitialiser",
+
+    "visit-our-store": "Visitez notre magasin :",
+    "map-desc": "Utilisez la carte ci-dessous pour trouver notre emplacement :",
+
+    "free-parking": "Stationnement gratuit disponible",
+    "free-parking-desc": "Le stationnement gratuit est disponible pour les patients et le personnel de Medica. <br> Vous pouvez accéder au parking derrière les terrains de bocce via les ruelles [], [], et [].",
+
+
+
+
+    "title-refill": "Demande de renouvellement",
+    "refill-header": "Renouvelez vos ordonnances",
+    "refill-desc": "Renouvelez votre ordonnance existante en contactant la pharmacie ou en remplissant le formulaire ci-dessous.<br>Une fois votre demande reçue, un membre de notre équipe de pharmacie vous contactera pour confirmer les détails.",
+    "refill-form": "Formulaire de demande de renouvellement",
+    "refill-firstname": "Prénom :",
+    "refill-placeholder-first": "Prénom",
+    "refill-lastname": "Nom de famille :",
+    "refill-placeholder-last": "Nom de famille",
+    "refill-phone": "Numéro de téléphone :",
+    "refill-placeholder-number": "(xxx)xxx-xxxx",
+    "refill-rxNum": "Numéro d’ordonnance (Rx) :",
+    "refill-placeholder-rxNum": "XXXXXX",
+    "refill-rxName": "Nom du médicament (optionnel) :",
+    "refill-placeholder-rxName": "Ex. Ibuprofène 600mg",
+    "refill-comments": "Commentaires ou instructions supplémentaires :",
+    "refill-placeholder-comments": "Ex. Veuillez livrer avant 17h à [adresse]",
+    "confidentiality": "Toutes les informations personnelles sont strictement confidentielles.",
+
+
+
+    "title-transfer": "Demande de transfert",
+    "transfer-header": "Transférez vos ordonnances",
+    "transfer-desc": "Vous souhaitez devenir patient chez Medica Pharmacy ? Nous serions ravis de vous accueillir.<br>Remplissez le formulaire ci-dessous, et nous nous occuperons du reste ! Un membre de notre équipe vous contactera pour vérifier les détails.",
+    "transfer-form": "Formulaire de demande de transfert",
+    "transfer-firstname": "Prénom :",
+    "transfer-placeholder-first": "Prénom",
+    "transfer-lastname": "Nom de famille :",
+    "transfer-placeholder-last": "Nom de famille",
+    "transfer-phone": "Numéro de téléphone :",
+    "transfer-placeholder-number": "(xxx)xxx-xxxx",
+    "transfer-DOB": "Date de naissance :",
+    "transfer-prevNum": "Numéro de téléphone de la pharmacie précédente :",
+    "transfer-comments": "Commentaires ou instructions supplémentaires :",
+    "transfer-placeholder-comments": "Ex. Veuillez préparer [ordonnance] pour le retrait"
+    
+}

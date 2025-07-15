@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title-refill">Refill Request</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
+            <img src="assets/images/menu.png" alt="menu">
+        </button>
+
+        <nav class="nav-bar">
+            <a href="index.html" class="logo"> 
+                <img src="assets/images/Logo1.png" alt="Medica Logo">
+            </a>
+            <ul class="nav-links">
+                <li>
+                    <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+                        <img src="assets/images/closeIcon.png" alt="close">
+                    </button>
+                </li>
+                <li><a data-i18n="home-nav" href="index.html">HOME</a></li>
+                <li><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
+                <li class="services-header">
+                    <a data-i18n="services-provided-nav" href="services.html">SERVICES PROVIDED
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="drop-down">
+                        <li><a data-i18n="service1" href="services.html#consultation">Pharmacist Consultation</a></li>
+                        <hr>
+                        <li><a data-i18n="service2" href="services.html#minor-ailments">Minor Ailments Care</a></li>
+                        <hr>
+                        <li><a data-i18n="service3" href="services.html#blood-pressure">Blood Pressure Readings</a></li>
+                        <hr>
+                        <li><a data-i18n="service4" href="services.html#anticoagulation">Anticoagulation Management</a></li>
+                        <hr>
+                        <li><a data-i18n="service5" href="services.html#blister-packs">Weekly Blister Packs</a></li>
+                        <hr>
+                        <li><a data-i18n="service6" href="services.html#home-delivery">Free Home Delivery</a></li>
+                        <hr>
+                        <li><a data-i18n="service7" href="services.html#compression">Compression Stockings & Socks</a></li>
+                        <hr>
+                        <li><a data-i18n="service8" href="services.html#vaccinations">Vaccinations and Immunizations</a></li>
+                        <hr>
+                        <li><a data-i18n="service9" href="services.html#multilingual">Multilingual Services</a></li>   
+                        <hr>
+                        <li><a data-i18n="refill" href="refill.html" class="btn">Refill Your Prescriptions</a></li>
+                        <li><a data-i18n="transfer" href="transfer.html" class="btn">Transfer Your Prescriptions</a></li>                  
+                    </ul>  
+                </li>
+                <li><a data-i18n="contact-us-nav" href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+        <div class="header-title">
+            <div class="lang-menu">
+                <div class="selected-lang" onclick="toggleElement()">
+                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
+                    <span id="selected-lang-label">English</span>
+                    <span class="material-icons dropdown-icon1">
+                        arrow_drop_down
+                    </span>
+                </div>
+
+                <ul id="hiddenElement">
+                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+                </ul>
+            </div>
+
+            <h1 class="page-title" data-i18n="refill-header">Refill Your Prescriptions</h1>
+
+            <div class="buttons">
+                <span class="text-resize-btn" data-size="1em">A</span>
+                <span class="text-resize-btn" data-size="1.25em">A</span>
+                <span class="text-resize-btn" data-size="1.75em">A</span>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- main content apart from header and footer -->
+    <main>
+        <div id="text">
+            <p data-i18n="refill-desc">
+                Refill your existing prescription by contacting the pharmacy or completing the form below.
+                <br>
+                Once we receive your request, a member of our pharmacy team will get in touch to confirm the details.
+            </p>
+
+            <form method="post" action="joshua.php">
+                <fieldset>
+                    <legend data-i18n="refill-form">Refill Request Form</legend>
+                    <label data-i18n="refill-firstname">First Name:</label>
+                    <input type="text" name="firstname" placeholder="First Name" data-i18n-placeholder="refill-placeholder-first" required>
+                    <br/>
+
+                    <label data-i18n="refill-lastname">Last Name:</label>
+                    <input type="text" name="lastname" placeholder="Last Name" data-i18n-placeholder="refill-placeholder-last" required>
+                    <br/>
+
+                    <label data-i18n="refill-phone">Phone Number</label>
+                    <input type="number" name="phonenumber" placeholder="(xxx)xxx-xxxx" data-i18n-placeholder="refill-placeholder-number" required>
+
+                    <br/> 
+                    <!--not sure how to ensure a proper RX number here, and how to make it so that they are able to enter 5 rx numbers-->
+                    <label data-i18n="refill-rxNum">Rx Number</label>
+                    <input type="text" name="rxnumber" placeholder="XXXXXX" data-i18n-placeholder="refill-placeholder-rxNum" required>
+                    
+                    <br/>
+                    <label data-i18n="refill-rxName">Rx Name (optional)</label>
+                    <input type="text" name="rxname" placeholder="Ex.Ibuprofen 600mg" data-i18n-placeholder="refill-placeholder-rxName">
+    
+                    <br/>
+                    <label data-i18n="refill-comments">Additional comments or instructions:</label>
+                    <input type="textarea" name="message" placeholder="Ex.Please deliver before 5pm to [address]" data-i18n-placeholder="refill-placeholder-comments">
+                    <br/>
+                </fieldset>
+                <input class="submit-button" type="submit" value="Submit" data-i18n="button-send">
+                <input class="reset-button" type="reset" value="Reset" data-i18n-value="button-reset">
+            </form> 
+            <p data-i18n="confidentiality">All personal information is kept strictly confidential.</p>
+            <p id="successStat" class="hidden success-message"></p>
+            <br/>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-contact-info">
+            <div class="footer-address">
+                <h2 data-i18n="address">Address</h2>
+                <p>
+                    1210 Erie St East,
+                    <br>
+                    Windsor, ON, Canada, N9A 3Z5
+                </p>
+                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="directions-button" target="_blank" rel="noopener noreferrer">
+                    Get Directions
+                </a>
+            </div>
+
+            <div class="footer-hours">
+                <h2 data-i18n="store-hours">Store Hours</h2>
+                <p data-i18n="store-hours-text">
+                    <strong>Sunday:</strong> 10am–2pm<br>
+                    <strong>Monday to Friday:</strong> 9am–7pm<br>
+                    <strong>Saturday:</strong> 9am–4pm
+                </p>
+            </div>
+
+            <div class="footer-contact-us">
+                <h2 data-i18n="contact-us">Contact Us</h2>
+                <p data-i18n="phone-fax">
+                    <strong>Phone: </strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
+                    <strong>Fax: </strong>(519) 255-7778
+                </p>
+                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="email-button">Email Us</a>
+            </div>
+
+            <div class="footer-facebook">
+                <a href="https://www.facebook.com/profile.php?id=100057429557260" class="facebook-link" target="_blank" rel="noopener noreferrer"> 
+                    <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
+                </a>
+            </div>
+
+        </section>
+        <div class="site-info">
+            <p data-i18n="footer-copyright">&copy; 2019 <span class="emphasis-alt">Medica Pharmacy</span>. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/textResize.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

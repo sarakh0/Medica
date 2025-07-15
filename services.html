@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title-services">Services</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
+            <img src="assets/images/menu.png" alt="menu">
+        </button>
+
+        <nav class="nav-bar">
+            <a href="index.html" class="logo"> 
+                <img src="assets/images/Logo1.png" alt="Medica Logo">
+            </a>
+            <ul class="nav-links">
+                <li>
+                    <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+                        <img src="assets/images/closeIcon.png" alt="close">
+                    </button>
+                </li>
+                <li><a data-i18n="home-nav" href="index.html">HOME</a></li>
+                <li><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
+                <li class="services-header">
+                    <a data-i18n="services-provided-nav" class="active" aria-current="page" href="services.html">SERVICES PROVIDED
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="drop-down">
+                        <li><a data-i18n="service1" href="services.html#consultation">Pharmacist Consultation</a></li>
+                        <hr>
+                        <li><a data-i18n="service2" href="services.html#minor-ailments">Minor Ailments Care</a></li>
+                        <hr>
+                        <li><a data-i18n="service3" href="services.html#blood-pressure">Blood Pressure Readings</a></li>
+                        <hr>
+                        <li><a data-i18n="service4" href="services.html#anticoagulation">Anticoagulation Management</a></li>
+                        <hr>
+                        <li><a data-i18n="service5" href="services.html#blister-packs">Weekly Blister Packs</a></li>
+                        <hr>
+                        <li><a data-i18n="service6" href="services.html#home-delivery">Free Home Delivery</a></li>
+                        <hr>
+                        <li><a data-i18n="service7" href="services.html#compression">Compression Stockings & Socks</a></li>
+                        <hr>
+                        <li><a data-i18n="service8" href="services.html#vaccinations">Vaccinations and Immunizations</a></li>
+                        <hr>
+                        <li><a data-i18n="service9" href="services.html#multilingual">Multilingual Services</a></li>   
+                        <hr>
+                        <li><a data-i18n="refill" href="refill.html" class="btn">Refill Your Prescriptions</a></li>
+                        <li><a data-i18n="transfer" href="transfer.html" class="btn">Transfer Your Prescriptions</a></li>                  
+                    </ul>  
+                </li>
+                <li><a data-i18n="contact-us-nav" href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+        <div class="pic-background">
+            <img src="assets/images/main1.jpeg" alt="Medica Staff Group Picture" width="100%" height="300">
+        </div>
+
+        <div class="header-title">
+
+            <div class="lang-menu">
+                <div class="selected-lang" onclick="toggleElement()">
+                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
+                    <span id="selected-lang-label">English</span>
+                    <span class="material-icons dropdown-icon1">
+                        arrow_drop_down
+                    </span>
+                </div>
+
+                <ul id="hiddenElement">
+                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+                </ul>
+            </div>
+
+            <h1 data-i18n="services-header" class="page-title">Services Provided</h1>
+
+            <div class="buttons">
+                <span class="text-resize-btn" data-size="1em">A</span>
+                <span class="text-resize-btn" data-size="1.25em">A</span>
+                <span class="text-resize-btn" data-size="1.75em">A</span>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- main content apart from header and footer -->
+    <main>
+        <div id="text">
+            <div class="services-nav">
+                <ul>
+                    <li><a data-i18n="service1" href="#consultation">Pharmacist Consultation</a></li>
+                    <li><a data-i18n="service2" href="#minor-ailments">Minor Ailments Care</a></li>
+                    <li><a data-i18n="service3" href="#blood-pressure">Blood Pressure Readings</a></li>
+                    <li><a data-i18n="service4" href="#anticoagulation">Anticoagulation Management</a></li>
+                    <li><a data-i18n="service5" href="#blister-packs">Weekly Blister Packs</a></li>
+                    <li><a data-i18n="service6" href="#home-delivery">Free Home Delivery</a></li>
+                    <li><a data-i18n="service7" href="#compression">Compression Stockings & Socks</a></li>
+                    <li><a data-i18n="service8" href="#vaccinations">Vaccinations and Immunizations</a></li>
+                    <li><a data-i18n="service9" href="#multilingual">Multilingual Services</a></li>    
+                </ul>
+            </div>
+
+            <section class="services-desc">
+
+                <div class="service" id="consultation">
+                    <h2 data-i18n="service1">Pharmacist Consultation</h2>
+                    <article class="services-article">
+                        <p class="desc" data-i18n="service1-desc">Our pharmacists are always happy to speak with patients to answer questions and address any concerns. We offer medication reviews to help you better understand your prescriptions and ensure they’re working effectively for you. To accommodate your needs, our pharmacists are available for consultations over the phone or in person, in the private consultation rooms at Medica Pharmacy.</p>
+                        <img src="assets/images/consult.jpg" alt="Pharmacist Consultation">                    
+                    </article>
+                </div>
+
+                <div class="service" id="minor-ailments">
+                    <h2 data-i18n="service2">Minor Ailments Care</h2>                                             
+                    <p data-i18n="service2-desc"> Our pharmacists are qualified to assess and prescribe for a variety of everyday health concerns, making care more accessible when you need it. <br> We can help with:</p>                    
+                    <article class="services-article">                         
+                        <div class="desc">                              
+                            <ul>
+                                <li data-i18n="service2-list1">Common ailments: seasonal allergies, pink eye, heartburn, pregnancy-related nausea, and mouth-related issues such as cold sores or thrush.</li>
+                                <li data-i18n="service2-list2">Skin-related concerns: acne, rashes, eczema, dermatitis (including diaper rash), insect bites, and hives.</li>
+                                <li data-i18n="service2-list3">Women’s health: uncomplicated urinary tract infections, yeast infections, period pain, and hemorrhoids.</li>
+                                <li data-i18n="service2-list4">Pediatric issues: pinworms and skin irritation in young children.</li>
+                                <li data-i18n="service2-list5">Minor injuries and preventative care: muscle sprains, joint strains, and tick bites.</li>
+                            </ul>
+                            <p data-i18n="service2-closing">Don't hesitate to give us a call if you have any specific questions.</p>
+                        </div>
+                        <img src="assets/images/consult.jpg" alt="Minor Ailments Care" >
+                    </article>                    
+                </div>
+
+                <div class="service" id="blood-pressure">
+                    <h2 data-i18n="service3">Blood Pressure Readings</h2>
+                    <article class="services-article">                    
+                        <p class="desc" data-i18n="service3-desc">All patients are welcome to stop by the pharmacy to use our blood pressure monitoring equipment at their leisure.  In addition, our pharmacists will help understand these blood pressure readings and make lifestyle recommendations to achieve patient goals.</p>
+                        <img src="assets/images/consult.jpg" alt="Blood Pressure Readings" >
+                    </article>
+                </div>
+
+                <div class="service" id="anticoagulation">
+                    <h2 data-i18n="service4">Anticoagulation Management</h2>
+                    <p data-i18n="service4-desc">We offer anticoagulation services for patients taking blood thinners such as warfarin. <br>This includes:</p>                            
+                    <article class="services-article"> 
+                        <div class="desc"> 
+                            <ul>
+                                <li data-i18n="service4-list1">Regularly scheduled INR monitoring</li>
+                                <li data-i18n="service4-list2">Immediate dose adjustments (no need to wait for a doctor's appointment)</li>
+                                <li data-i18n="service4-list3">Personalized education and lifestyle recommendations to achieve target goals</li>
+                            </ul>
+                            <p data-i18n="service4-closing-download">
+                                Speak with a pharmacist for more details. 
+                                <br> 
+                                [Download our referral form here – Medica-Anticoagulation-Referral-Form]
+                            </p> <!--make download form here-->     
+                        </div>
+                        <img src="assets/images/consult.jpg" alt="Anticoagulation Management" >
+                    </article>                  
+                </div>
+
+                <div class="service" id="blister-packs">
+                    <h2 data-i18n="service5">Weekly & Bi-Weekly Blister Packs</h2>
+                    <article class="services-article">                                
+                        <p class="desc" data-i18n="service5-desc">
+                            Blister packs, individually handmade and verified by our staff, organize your medications into clear, labeled slots for each time of day (Breakfast, Lunch, Dinner, Bedtime), one or two weeks at a time. These are recommended for any patients with complex or confusing medication regimens in order to assist with correct administration and reduce the risk of errors. 
+                            <br> 
+                            Interested in switching to blister packs? Talk to one of our pharmacists today.
+                        </p>
+                        <img src="assets/images/consult.jpg" alt="Weekly Blister Packs" >
+                    </article>
+                </div>
+
+                <div class="service" id="home-delivery">
+                    <h2 data-i18n="service6">Free Home Delivery</h2>
+                    <article class="services-article">  
+                        <div class="desc"> 
+                            <p data-i18n="service6-desc">
+                                We offer free medication delivery for patients who are unable to visit the pharmacy in person.
+                                    <br>
+                                Standard delivery hours are:
+                            </p>                                 
+                            <table>
+                                <tr>
+                                    <td data-i18n="mon-fri">Monday-Friday</td>
+                                    <td data-i18n="mon-fri-hours">10am-6pm</td>
+                                </tr>
+                                <tr>
+                                    <td data-i18n="sat">Saturday</td>
+                                    <td data-i18n="sat-hours">10am-3pm</td>
+                                </tr>
+                                <tr>
+                                    <td data-i18n="sun">Sunday</td>
+                                    <td data-i18n="sun-hours">11am-1pm</td>
+                                </tr>
+                            </table>
+                            <p data-i18n="service6-closing">Have special circumstances? Let us know, our team will do our best to accommodate you.</p>
+                        </div>
+                        <img src="assets/images/consult.jpg" alt="Free Home Delivery" >
+                    </article>
+                </div>
+
+                <div class="service" id="compression">
+                    <h2 data-i18n="service7">Compression Stockings & Socks</h2>
+                    <article class="services-article">            
+                        <p class="desc" data-i18n="service7-desc">
+                            We provide prescription compression  stockings and socks for patients who need support for circulation or swelling. Please visit us in person for professional measurements prior to ordering.
+                            <br>
+                            Call ahead to schedule a fitting at your convenience.
+                        </p>
+                        <img src="assets/images/consult.jpg" alt="Compression Stockings and Socks" >
+                    </article>
+                </div> 
+
+                <div class="service" id="vaccinations">
+                    <h2 data-i18n="service8">Vaccinations and Immunizations</h2>
+                    <article class="services-article">                                
+                        <p class="desc" data-i18n="service8-desc">
+                            Our certified pharmacists are trained and experienced in administering a variety of vaccinations and immunizations to help protect you and your family from preventable diseases. 
+                            <br>
+                            Please note: some specialized immunizations may require a referral or a visit to a healthcare provider. Feel free to ask our staff about which vaccines are available and how we can assist you in staying up to date.
+                        </p>
+                        <img src="assets/images/consult.jpg" alt="Vaccinations and Immunizations" >
+                    </article>
+                </div>
+
+                <div class="service" id="multilingual">
+                    <h2 data-i18n="service9">Multilingual Services</h2>
+                    <article class="services-article">            
+                        <p class="desc" data-i18n="service9-desc">Our pharmacy is proud to provide services in English, French, and Italian.</p>
+                    </article>
+                </div> 
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-contact-info">
+            <div class="footer-address">
+                <h2 data-i18n="address">Address</h2>
+                <p>
+                    1210 Erie St East,
+                    <br>
+                    Windsor, ON, Canada, N9A 3Z5
+                </p>
+                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="directions-button" target="_blank" rel="noopener noreferrer">
+                    Get Directions
+                </a>
+            </div>
+
+            <div class="footer-hours">
+                <h2 data-i18n="store-hours">Store Hours</h2>
+                <p data-i18n="store-hours-text">
+                    <strong>Sunday:</strong> 10am–2pm<br>
+                    <strong>Monday to Friday:</strong> 9am–7pm<br>
+                    <strong>Saturday:</strong> 9am–4pm
+                </p>
+            </div>
+
+            <div class="footer-contact-us">
+                <h2 data-i18n="contact-us">Contact Us</h2>
+                <p data-i18n="phone-fax">
+                    <strong>Phone: </strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
+                    <strong>Fax: </strong>(519) 255-7778
+                </p>
+                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="email-button">Email Us</a>
+            </div>
+
+            <div class="footer-facebook">
+                <a href="https://www.facebook.com/profile.php?id=100057429557260" class="facebook-link" target="_blank" rel="noopener noreferrer"> 
+                    <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
+                </a>
+            </div>
+
+        </section>
+        <div class="site-info">
+            <p data-i18n="footer-copyright">&copy; 2019 <span class="emphasis-alt">Medica Pharmacy</span>. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/textResize.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

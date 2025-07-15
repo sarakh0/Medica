@@ -1,0 +1,193 @@
+{
+    "title-index": "Medica Farmacia",
+    "home-nav": "HOME",
+    "about-us-nav": "CHI SIAMO",
+    "services-provided-nav": "SERVIZI OFFERTI",
+    "contact-us-nav": "CONTATTACI",
+
+    "welcome-msg": "Benvenuto nella famiglia Medica!",
+
+    "eng": "Inglese",
+    "fr": "Francese",
+    "it": "Italiano",
+    "ar": "Arabo",
+
+    "address": "Indirizzo",
+    "get-directions": "Ottieni indicazioni",
+    "store-hours": "Orari di apertura",
+    "store-hours-text": "Lun - Ven:9:00–19:00 <br> Sab:9:00–16:00<br>Dom:10:00–14:00",
+    "contact-us": "Contatto",
+    "phone-fax": "Telefono: (519) 255-7777<br>Fax: (519) 255-7778",
+    "email-us": "Scrivici un'email",
+    "facebook-desc": "Seguici su Facebook per <br> ricevere aggiornamenti, notizie <br> e storie dalla Farmacia Medica.",
+
+    "services-provided": "Servizi Offerti",
+    "services-desc": "Presso la Farmacia Medica offriamo una gamma di servizi sanitari su misura per le tue esigenze. Dai rinnovi delle prescrizioni alle consulenze personalizzate, scopri cosa possiamo fare per te.",
+    "service1": "Consultazione con il farmacista",
+    "service2": "Cura per disturbi minori",
+    "service3": "Misurazioni della pressione sanguigna",
+    "service4": "Gestione dell'anticoagulazione",
+    "service5": "Confezioni settimanali",
+    "service6": "Consegna gratuita a domicilio",
+    "service7": "Calze e gambaletti a compressione",
+    "service8": "Vaccinazioni e immunizzazioni",
+    "service9": "Servizi multilingue",
+
+    "refill": "Rinnova le tue prescrizioni",
+    "transfer": "Trasferisci le tue prescrizioni",
+
+    "mini-about-title": "Orgogliosamente locale, amati dalla comunità",
+    "mini-about-desc": "La Farmacia Medica è orgogliosa di essere a gestione locale e profondamente radicata nella comunità di Erie Street e nella comunità italiana. Siamo onorati di far parte di una comunità straordinaria piena di persone meravigliose, e ci impegniamo sempre a sostenere e sviluppare ulteriormente la comunità attraverso la nostra cura e le nostre azioni.<br>Non vediamo l'ora di darti il benvenuto nella famiglia Medica!",
+
+    "what-makes-us-diff": "Cosa ci rende diversi",
+
+    "what-1": "<b>Servizio rapido:</b> Le nuove prescrizioni sono spesso pronte in pochi minuti.",
+    "what-2": "<b>Assistenza personalizzata:</b> Il nostro farmacista si prende il tempo per ascoltarti, rispondere alle tue domande e assicurarsi che tu capisca completamente i tuoi farmaci.",
+    "what-3": "<b>Veniamo noi da te:</b> Se hai una prescrizione ma non puoi venire in farmacia, veniamo noi. Il nostro team ritirerà la tua prescrizione e consegnerà i farmaci quando saranno pronti.",
+    "what-4": "<b>Sempre disponibili:</b> Siamo aperti sette giorni su sette, inclusi i giorni festivi, quindi c’è sempre qualcuno disponibile ad aiutarti quando ne hai bisogno.",
+
+    "app-promo": "Resta connesso con la Farmacia Medica, ovunque e in qualsiasi momento!",
+
+    "how-it-works": "Come funziona",
+    "how-1": "Accedi o continua come ospite",
+    "how-2": "Tocca su \"Sedi\" e cerca Farmacia Medica per nome o indirizzo",
+    "how-3": "Seleziona la nostra farmacia",
+    "how-4": "Inizia a rinnovare le tue prescrizioni, inviane una nuova o contattaci direttamente tramite l'app",
+
+    "footer-copyright": "© 2019 <span class=\"emphasis-alt\">Medica Farmacia</span>. Tutti i diritti riservati",
+
+
+
+    "title-about": "Chi siamo",
+    "about-us-title": "Chi siamo",
+
+    "our-mission": "La nostra missione",
+    "our-mission-text": "Presso Medica Pharmacy, ci dedichiamo a fornire la migliore assistenza possibile a ogni paziente che varca la nostra porta. Crediamo nel costruire relazioni significative con ogni persona e non tratteremo mai nessuno come un numero.<br>La cura del paziente è sempre la nostra massima priorità. Cercheremo sempre nuovi modi per migliorare e ampliare l'assistenza che offriamo per soddisfare le esigenze della nostra comunità.<br>Una farmacia rappresenta uno dei punti di accesso più facilmente raggiungibili per l'assistenza sanitaria, ed è nostra responsabilità rispondere alle domande e alle preoccupazioni di tutti i pazienti che cercano il nostro aiuto. Ogni paziente merita il nostro tempo e impegno, e ci impegniamo ad aiutarti a sviluppare un piano di cura personalizzato che funzioni per te. Che tu ci stia visitando per la prima volta o che sia con noi da anni, ti invitiamo a fare domande, condividere feedback e rimanere in contatto. Siamo sempre felici di sentirti.",
+
+    "meet-your-rph": "Incontra il tuo farmacista!",
+
+    "fv-caption": "Francesco Vella, farmacista e proprietario",
+    "fv-desc": "",
+
+    "ak-caption": "Amar Khaira, farmacista",
+    "ak-desc": "",
+
+    "ji-caption": "Jeremy Ing, farmacista",
+    "ji-desc": "",
+
+    "bm-caption": "Brandon M, farmacista",
+    "bm-desc": "",
+
+    "the-bocce-court": "Il campo da bocce",
+    "bocce-text": "Avrai forse notato i campi da bocce accanto alla farmacia. Il bocce è un gioco tradizionale italiano, apprezzato anche da molte altre culture, noto come \"boules\" in Francia e simile al gioco del bowling su prato in Inghilterra. È un gioco di abilità, strategia e divertimento.<br>Questi campi sono stati costruiti dal proprietario di Medica Pharmacy, Francesco Vella, come modo per migliorare la parte est di Erie Street e creare uno spazio che riunisca persone da ogni dove. Che tu stia partecipando a una partita o semplicemente passando per un gelato dall'altra parte della strada, sei sempre il benvenuto a goderti l'atmosfera al campo.",
+
+
+
+    "title-services": "Servizi",
+    "services-header": "Servizi Offerti",
+
+    "service1-desc": "I nostri farmacisti sono sempre felici di parlare con i pazienti per rispondere alle domande e affrontare qualsiasi preoccupazione. Offriamo revisioni dei farmaci per aiutarti a comprendere meglio le tue prescrizioni e garantire che funzionino efficacemente per te. Per soddisfare le tue esigenze, i nostri farmacisti sono disponibili per consulenze telefoniche o di persona nelle sale di consultazione private della Farmacia Medica.",
+
+    "service2-desc": "I nostri farmacisti sono qualificati per valutare e prescrivere trattamenti per una varietà di problemi di salute quotidiani, rendendo le cure più accessibili quando ne hai bisogno.<br>Possiamo aiutarti con:",    "service2-list1": "Disturbi comuni: allergie stagionali, congiuntivite, bruciore di stomaco, nausea in gravidanza e problemi orali come herpes labiale o mughetto.",
+    "service2-list2": "Problemi cutanei: acne, eruzioni cutanee, eczema, dermatite (incluso l'eritema da pannolino), punture d’insetti e orticaria.",
+    "service2-list3": "Salute femminile: infezioni urinarie non complicate, infezioni da lieviti, dolori mestruali e emorroidi.",
+    "service2-list4": "Problemi pediatrici: ossiuri e irritazioni cutanee nei bambini piccoli.",
+    "service2-list5": "Lesioni minori e prevenzione: distorsioni muscolari, stiramenti articolari e punture di zecche.",
+    "service2-closing": "Non esitare a chiamarci se hai domande specifiche.",
+
+    "service3-desc": "Tutti i pazienti sono i benvenuti a utilizzare liberamente la nostra attrezzatura per la misurazione della pressione. I nostri farmacisti ti aiuteranno a interpretare i risultati e forniranno raccomandazioni sullo stile di vita per raggiungere i tuoi obiettivi di salute.",
+
+    "service4-desc": "Offriamo servizi di gestione dell’anticoagulazione per pazienti che assumono farmaci anticoagulanti come il warfarin. <br>Ciò include:",
+    "service4-list1": "Monitoraggio INR regolare",
+    "service4-list2": "Regolazioni immediate del dosaggio (senza necessità di appuntamento medico)",
+    "service4-list3": "Educazione personalizzata e consigli sullo stile di vita per raggiungere gli obiettivi terapeutici",
+    "service4-closing-download": "Parla con un farmacista per ulteriori dettagli. <br>[Scarica qui il modulo di riferimento – Modulo-Riferimento-Anticoagulanti-Medica]",
+
+    "service5-desc": "I blister pack, preparati e verificati manualmente dal nostro personale, organizzano i tuoi farmaci in scomparti chiari etichettati per ogni momento della giornata (Colazione, Pranzo, Cena, Notte), per una o due settimane. Sono raccomandati per i pazienti con terapie complesse per favorire l’aderenza e ridurre gli errori. <br>Interessato ai blister pack? Parla con un farmacista oggi stesso.",
+
+    "service6-desc": "Offriamo la consegna gratuita dei farmaci per i pazienti che non possono recarsi in farmacia. <br>Orari standard di consegna:",
+    "mon-fri": "Lunedì - Venerdì",
+    "mon-fri-hours": "10:00 - 18:00",
+    "sat": "Sabato",
+    "sat-hours": "10:00 - 15:00",
+    "sun": "Domenica",
+    "sun-hours": "11:00 - 13:00",
+    "service6-closing": "Hai esigenze particolari? Faccelo sapere, faremo del nostro meglio per aiutarti.",
+
+    "service7-desc": "Forniamo calze e gambaletti compressivi su prescrizione per chi ha problemi di circolazione o gonfiore. Si prega di venire di persona per una misurazione professionale prima dell'ordine. <br>Chiama in anticipo per fissare un appuntamento.",
+
+    "service8-desc": "I nostri farmacisti certificati sono formati e esperti nella somministrazione di una varietà di vaccini per proteggere te e la tua famiglia da malattie prevenibili. <br>Nota: alcuni vaccini speciali potrebbero richiedere una prescrizione o una visita medica. Chiedi pure al nostro personale quali vaccini sono disponibili.",
+
+    "service9-desc": "La nostra farmacia è orgogliosa di offrire servizi in inglese, francese e italiano.",
+
+
+
+        
+    "title-contact": "Contattaci",
+    "contact-us-header": "Contattaci",
+
+    "numbers-opening": "Per una risposta più rapida, chiamaci durante il nostro orario di apertura:",
+    "phone-fax-email": "<b>Telefono: </b> <a href=\"tel:+15192557777\">(519) 255-7777</a><br><b>Fax: </b> (519) 255-7778<br><b>Email:</b> <a href=\"mailto:medicarxwindsor@gmail.com\">medicarxwindsor@gmail.com</a>",
+
+    "pre-form-message": "Ci contatti fuori orario? Inviaci una email o compila il modulo di contatto qui sotto. Ti risponderemo il prima possibile.",
+
+    "contact-label-name": "Nome:",
+    "contact-placeholder-name": "Inserisci il tuo nome",
+
+    "contact-label-email": "Email:",
+    "contact-placeholder-email": "Inserisci la tua email",
+
+    "contact-label-subject": "Oggetto:",
+    "contact-placeholder-subject": "Inserisci l’oggetto",
+
+    "contact-label-message": "Messaggio:",
+    "contact-placehlder-message": "Scrivi il tuo messaggio",
+
+    "contact-label-upload": "Carica un file:",
+
+    "button-send": "Invia",
+    "button-reset": "Resetta",
+
+    "visit-our-store": "Visita il nostro negozio:",
+    "map-desc": "Usa la mappa qui sotto per trovare la nostra posizione:",
+
+    "free-parking": "Parcheggio gratuito disponibile",
+    "free-parking-desc": "Il parcheggio gratuito è disponibile per i pazienti e lo staff di Medica. <br> È possibile accedere al parcheggio dietro i campi di bocce tramite i vicoli [], [], e [].",
+
+
+
+    "title-refill": "Richiesta di rinnovo",
+    "refill-header": "Rinnova le tue prescrizioni",
+    "refill-desc": "Rinnova la tua prescrizione esistente contattando la farmacia o compilando il modulo sottostante.<br>Una volta ricevuta la tua richiesta, un membro del nostro team farmaceutico ti contatterà per confermare i dettagli.",
+    "refill-form": "Modulo di richiesta di rinnovo",
+    "refill-firstname": "Nome:",
+    "refill-placeholder-first": "Nome",
+    "refill-lastname": "Cognome:",
+    "refill-placeholder-last": "Cognome",
+    "refill-phone": "Numero di telefono:",
+    "refill-placeholder-number": "(xxx)xxx-xxxx",
+    "refill-rxNum": "Numero ricetta (Rx):",
+    "refill-placeholder-rxNum": "XXXXXX",
+    "refill-rxName": "Nome del medicinale (facoltativo):",
+    "refill-placeholder-rxName": "Es. Ibuprofene 600mg",
+    "refill-comments": "Commenti o istruzioni aggiuntive:",
+    "refill-placeholder-comments": "Es. Si prega di consegnare prima delle 17:00 a [indirizzo]",
+    "confidentiality": "Tutte le informazioni personali sono mantenute strettamente riservate.",
+
+
+"title-transfer": "Richiesta di trasferimento",
+    "transfer-header": "Trasferisci le tue prescrizioni",
+    "transfer-desc": "Vuoi diventare un paziente di Medica Pharmacy? Saremo felici di accoglierti.<br>Compila il modulo sottostante, e noi ci occuperemo del resto! Un membro del nostro team ti contatterà per verificare i dettagli.",
+    "transfer-form": "Modulo di richiesta di trasferimento",
+    "transfer-firstname": "Nome:",
+    "transfer-placeholder-first": "Nome",
+    "transfer-lastname": "Cognome:",
+    "transfer-placeholder-last": "Cognome",
+    "transfer-phone": "Numero di telefono:",
+    "transfer-placeholder-number": "(xxx)xxx-xxxx",
+    "transfer-DOB": "Data di nascita:",
+    "transfer-prevNum": "Numero di telefono della farmacia precedente:",
+    "transfer-comments": "Commenti o istruzioni aggiuntive:",
+    "transfer-placeholder-comments": "Es. Si prega di preparare [prescrizione] per il ritiro"
+    
+}
