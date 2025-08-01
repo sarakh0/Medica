@@ -1,0 +1,37 @@
+.rph-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rph {
+    max-width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.rph p {
+    max-width: 100%;
+    margin: 1rem ;
+}
+
+.rph img {
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.bocce {
+    gap: clamp(0.5rem, 2vw, 1rem);
+}
+
+.bocce img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}

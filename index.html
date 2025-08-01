@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="title-index">Medica Pharmacy</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 <body>
     <header> 
-        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
-            <img src="assets/images/menu.png" alt="menu">
-        </button>
+
+        <div class="mobile-header"> 
+            <a href="index.html" class="logo-for-mobile"> 
+                <img src="assets/images/Logo1.png" alt="Medica Logo">
+            </a>
+            
+            <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
+                <img src="assets/images/menu.png" alt="menu">
+            </button>
+        </div>
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
@@ -69,6 +76,8 @@
             </video>
         </div>
         
+        <h1 class="page-title" data-i18n="welcome-msg">Welcome to the Medica family!</h1>
+
         <div class="header-title">
 
             <div class="lang-menu">
@@ -92,11 +101,9 @@
                 <span class="text-resize-btn" data-size="1.25em">A</span>
                 <span class="text-resize-btn" data-size="1.75em">A</span>
             </div>  
-        </div>          
-
-            <h1 class="page-title" data-i18n="welcome-msg">Welcome to the Medica family!</h1>
-            
+        </div>                      
     </header>
+
     <!-- main content apart from header and footer -->
     <main id="text">
             <section class="contact-info">
@@ -113,7 +120,7 @@
                 </div>
                 <div class="hours">
                     <h2 data-i18n="store-hours">Store Hours</h2>
-                    <p data-i18n="store-hours-text"> <b>Mon - Fri:</b> 9am-7pm <br> <b>Sat:</b> 9am-4pm <br> <b>Sun:</b> 10am-2pm</p>
+                    <p data-i18n="store-hours-text"> <b>Mon - Fri:</b> 9am - 7pm <br> <b>Sat:</b> 9am - 4pm <br> <b>Sun:</b> 10am - 2pm</p>
                 </div>
                 <div class="contact-us">
                     <h2 data-i18n="contact-us">Contact</h2>
@@ -126,13 +133,13 @@
                     </a>
                     <p data-i18n="facebook-desc">
                         Follow us on Facebook for 
-                       <br>
+                       
                         the latest updates,
                         news, 
-                        <br>
+                        
                         and stories from 
                         Medica 
-                        <br>
+                        
                         Pharmacy.
                     </p>
                 </div>
@@ -177,13 +184,11 @@
                     </ul>
                 </div>
 
-                <div class="google maps">
+                <div class="google reviews">
                     <!-- Elfsight Google Reviews | Medica Google Reviews  -->
                     <script src="https://static.elfsight.com/platform/platform.js" async></script>
                     <div class="elfsight-app-d54692d8-5471-4a78-87a0-efc7fdf3402a" data-elfsight-app-lazy></div>
                 </div> 
-
-                <div id="google-reviews"></div>
             </section>
                         
             <section class="app-promo">
@@ -204,10 +209,10 @@
                             <li data-i18n="how-4">Start refilling your prescriptions, submit a new one, or contact us directly through the app</li>
                         </ol>
                         <div class="download-btns">
-                            <a href="https://play.google.com/store/apps/details?id=com.cellflare.pharmadvise">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cellflare.pharmadvise">
                                 <img src="assets/images/android-download.png" height="60" alt="Download on Google Play">
                             </a>
-                            <a href="https://itunes.apple.com/us/app/pharmadvise-mobile-app/id1211434183">
+                            <a target="_blank" href="https://itunes.apple.com/us/app/pharmadvise-mobile-app/id1211434183">
                                 <img src="assets/images/apple-download.png" height="61" alt="Download on the App Store">
                             </a> 
                         </div>
@@ -217,6 +222,7 @@
 
         
     </main>
+
     <footer class="footer" id="text">
         <section class="footer-contact-info">
             <div class="footer-address">
@@ -234,9 +240,9 @@
             <div class="footer-hours">
                 <h2 data-i18n="store-hours">Store Hours</h2>
                 <p data-i18n="store-hours-text">
-                    <strong>Sunday:</strong> 10am–2pm<br>
-                    <strong>Monday to Friday:</strong> 9am–7pm<br>
-                    <strong>Saturday:</strong> 9am–4pm
+                    <strong>Sunday:</strong> 10am – 2pm<br>
+                    <strong>Monday - Friday:</strong> 9am – 7pm<br>
+                    <strong>Saturday:</strong> 9am – 4pm
                 </p>
             </div>
 
@@ -249,10 +255,13 @@
                 <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="btn">Email Us</a>
             </div>
 
-            <div class="footer-facebook">
+            <div class="facebook">
                 <a href="https://www.facebook.com/profile.php?id=100057429557260" class="facebook-link" target="_blank" rel="noopener noreferrer"> 
                     <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
                 </a>
+                <p data-i18n="facebook-desc-footer">
+                    <b>Have any comments or questions? Check out our Facebook page</b>                 
+                </p>
             </div>
 
         </section>
@@ -260,11 +269,10 @@
             <p data-i18n="footer-copyright">&copy; 2019 <span class="emphasis-alt">Medica Pharmacy</span>. All Rights Reserved</p>
         </div>
     </footer>
+    
     <script src="assets/js/textResize.js"></script>
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/lang.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/getReviews.js"></script>
-
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-    ini_set('display_errors', 1);
+ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
@@ -58,12 +58,20 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
         $mail->addAddress($_ENV['MAIL_TO']);            
         $mail->addReplyTo($email, $name);
 
-        if (!empty($_FILES['attachment']['tmp_name'])) {
-            $mail->addAttachment($_FILES['attachment']['tmp_name'], $_FILES['attachment']['name']);  // need it to be abel to upload more than one file
-        }
+        if (!empty($_FILES['attachment']['name'][0])) {
+            for ($i = 0; $i < count($_FILES['attachment']['name']); $i++) {
+                $tmpName = $_FILES['attachment']['tmp_name'][$i];
+                $fileName = $_FILES['attachment']['name'][$i];
 
+                if (is_uploaded_file($tmpName)) {
+                    $mail->addAttachment($tmpName, $fileName);
+                }
+            }
+        }
+    
         $mail->isHTML(true);
         $mail->Subject = 'New Contact Form Submission: ' . htmlspecialchars($subject);
+        
         // body of the email
         $mail->Body =  "        
             <p><strong>Name:</strong> " . $name. "</p>
@@ -83,7 +91,9 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
             "This message was sent via the contact form on the medica pharmacy website.";
 
         $mail->send();
-        echo 'Message has been sent';
+        // echo 'Message has been sent';
+        echo "Message has been sent with " . count($mail->getAttachments()) . " attachments";
+
 
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

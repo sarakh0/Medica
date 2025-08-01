@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="title-transfer">Transfer Request</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 <body>
     <header>    
-        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
-            <img src="assets/images/menu.png" alt="menu">
-        </button>
+        <div class="mobile-header"> 
+            <a href="index.html" class="logo-for-mobile"> 
+                <img src="assets/images/Logo1.png" alt="Medica Logo">
+            </a>
+            
+            <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
+                <img src="assets/images/menu.png" alt="menu">
+            </button>
+        </div>
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
@@ -24,8 +30,8 @@
                         <img src="assets/images/closeIcon.png" alt="close">
                     </button>
                 </li>
-                <li><a data-i18n="home-nav" href="index.html">HOME</a></li>
-                <li><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
+                <li class="underline"><a data-i18n="home-nav" href="index.html">HOME</a></li>
+                <li class="underline"><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
                 <li class="services-header">
                     <a data-i18n="services-provided-nav" href="services.html">SERVICES PROVIDED
                         <span class="material-icons dropdown-icon">
@@ -34,34 +40,37 @@
                     </a>
                     <ul class="drop-down">
                         <li><a data-i18n="service1" href="services.html#consultation">Pharmacist Consultation</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service2" href="services.html#minor-ailments">Minor Ailments Care</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service3" href="services.html#blood-pressure">Blood Pressure Readings</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service4" href="services.html#anticoagulation">Anticoagulation Management</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service5" href="services.html#blister-packs">Weekly Blister Packs</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service6" href="services.html#home-delivery">Free Home Delivery</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service7" href="services.html#compression">Compression Stockings & Socks</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service8" href="services.html#vaccinations">Vaccinations and Immunizations</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service9" href="services.html#multilingual">Multilingual Services</a></li>   
-                        <hr>
+                        
                         <li><a data-i18n="refill" href="refill.html" class="btn">Refill Your Prescriptions</a></li>
                         <li><a data-i18n="transfer" href="transfer.html" class="btn">Transfer Your Prescriptions</a></li>                  
                     </ul>  
                 </li>
-                <li><a data-i18n="contact-us-nav" href="contact.html">CONTACT US</a></li>
+                <li class="underline"><a data-i18n="contact-us-nav" href="contact.html">CONTACT US</a></li>
             </ul>
         </nav>
 
         <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+            
+        <h1 class="page-title" data-i18n="transfer-header">Transfer Your Prescriptions</h1>
 
         <div class="header-title">
+
             <div class="lang-menu">
                 <div class="selected-lang" onclick="toggleElement()">
                     <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
@@ -70,37 +79,35 @@
                         arrow_drop_down
                     </span>
                 </div>
-
                 <ul id="hiddenElement">
                     <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
                     <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
                     <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
                     <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
                 </ul>
-            </div>
+            </div> 
 
-            <h1 class="page-title" data-i18n="transfer-header">Transfer Your Prescriptions</h1>
-        
             <div class="buttons">
                 <span class="text-resize-btn" data-size="1em">A</span>
                 <span class="text-resize-btn" data-size="1.25em">A</span>
                 <span class="text-resize-btn" data-size="1.75em">A</span>
-            </div>
-        </div>
+            </div>  
+        </div> 
 
     </header>
 
     <!-- main content apart from header and footer -->
     <main>
         <div id="text">
-            <p data-i18n="transfer-desc">
+            <h3 data-i18n="transfer-desc">
                 Looking to become a patient at Medica Pharmacy? We'd love to have you. 
                 <br/>
                 Complete the form below, and we will take care of the rest! A member of our team will contact you to verify the details
-            </p>
+            </h3>
 
-            <form method="post" action="joshua.php">
+            <form class="form" method="post" action="php/formHandler.php">
                 <fieldset>
+                    <input type="hidden" name="form_type" value="transfer">
                     <legend data-i18n="transfer-form">Transfer Request Form</legend>
                     <label data-i18n="transfer-firstname">First Name:</label>
                     <input type="text" name="firstname" placeholder="First Name" data-i18n-placeholder="transfer-placeholder-first" required>
@@ -111,7 +118,7 @@
                     <br/>
 
                     <label data-i18n="transfer-phone">Phone Number</label>
-                    <input type="number" name="phonenumber" placeholder="(xxx)xxx-xxxx" data-i18n-placeholder="transfer-placeholder-number" required>
+                    <input type="tel" name="phonenumber" placeholder="xxx-xxx-xxxx" data-i18n-placeholder="transfer-placeholder-number"  pattern="^(\d{3}-\d{3}-\d{4}|\d{10})$" required>
 
                     <br/> 
 
@@ -119,24 +126,29 @@
                     <input type="date" name="dob" required>
                     
                     <br/>
-                    <label data-i18n="transfer-prevNum">Previous Pharmacy's Phone Number</label>
-                    <input type="number" name="prevNum" placeholder="(xxx)xxx-xxxx">
+
+                    <label data-i18n="transfer-pharmName">Name of Current Pharmacy</label>
+                    <input type="text" name="pharmName" placeholder="Medica Pharmacy on Erie" required>
+
+                    <label data-i18n="transfer-currentNum">Phone Number of Current Pharmacy</label>
+                    <input type="tel" name="currentNum" placeholder="xxx-xxx-xxxx"  pattern="^(\d{3}-\d{3}-\d{4}|\d{10})$" required>
 
                     <br/>
                     <label data-i18n="transfer-comments">Additional comments or instructions:</label>
-                    <input type="textarea" name="message" placeholder="Ex.Please fill [prescription] for pick up" data-i18n-placeholder="transfer-placeholder-comments">
+                    <textarea name="message" rows="4" placeholder="Ex.Please fill [prescription] for pick up" data-i18n-placeholder="transfer-placeholder-comments"></textarea>
                     <br/>
                 </fieldset>
-                <input class="submit-button" type="submit" value="Submit" data-i18n="button-send">
-                <input class="reset-button" type="reset" value="Reset" data-i18n-value="button-reset">
+                <div class="g-recaptcha" data-sitekey="6Lf8IoMrAAAAAMdBDIKbS1B-M-S9aP4xgtzUQZ9Q"></div>
+                <input class="btn" type="submit" value="Submit" data-i18n="button-send">
+                <input class="btn" type="reset" value="Reset" data-i18n-value="button-reset">
+                <p class="hidden success-message"></p>            
             </form> 
             <p data-i18n="confidentiality">All personal information is kept strictly confidential.</p>
-            <p id="successStat" class="hidden success-message"></p>
             <br/>
         </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="text">
         <section class="footer-contact-info">
             <div class="footer-address">
                 <h2 data-i18n="address">Address</h2>
@@ -145,7 +157,7 @@
                     <br>
                     Windsor, ON, Canada, N9A 3Z5
                 </p>
-                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="directions-button" target="_blank" rel="noopener noreferrer">
+                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="btn" target="_blank" rel="noopener noreferrer">
                     Get Directions
                 </a>
             </div>
@@ -153,25 +165,28 @@
             <div class="footer-hours">
                 <h2 data-i18n="store-hours">Store Hours</h2>
                 <p data-i18n="store-hours-text">
-                    <strong>Sunday:</strong> 10am–2pm<br>
-                    <strong>Monday to Friday:</strong> 9am–7pm<br>
-                    <strong>Saturday:</strong> 9am–4pm
+                    <strong>Sunday:</strong> 10am – 2pm<br>
+                    <strong>Monday - Friday:</strong> 9am – 7pm<br>
+                    <strong>Saturday:</strong> 9am – 4pm
                 </p>
             </div>
 
             <div class="footer-contact-us">
                 <h2 data-i18n="contact-us">Contact Us</h2>
                 <p data-i18n="phone-fax">
-                    <strong>Phone: </strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
-                    <strong>Fax: </strong>(519) 255-7778
+                    <strong>Phone:</strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
+                    <strong>Fax:</strong> (519) 255-7778
                 </p>
-                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="email-button">Email Us</a>
+                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="btn">Email Us</a>
             </div>
 
-            <div class="footer-facebook">
+            <div class="facebook">
                 <a href="https://www.facebook.com/profile.php?id=100057429557260" class="facebook-link" target="_blank" rel="noopener noreferrer"> 
                     <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
                 </a>
+                <p data-i18n="facebook-desc-footer">
+                    <b>Have any comments or questions? Check out our Facebook page</b>                 
+                </p>
             </div>
 
         </section>
@@ -181,9 +196,9 @@
     </footer>
 
     <script src="assets/js/textResize.js"></script>
-    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/forms.js"></script>
     <script src="assets/js/lang.js"></script>
     <script src="assets/js/script.js"></script>
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>

@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="title-services">Services</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 <body>
     <header>    
-        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
-            <img src="assets/images/menu.png" alt="menu">
-        </button>
+        <div class="mobile-header"> 
+            <a href="index.html" class="logo-for-mobile"> 
+                <img src="assets/images/Logo1.png" alt="Medica Logo">
+            </a>
+            
+            <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="nav-bar"> 
+                <img src="assets/images/menu.png" alt="menu">
+            </button>
+        </div>
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
@@ -24,8 +30,8 @@
                         <img src="assets/images/closeIcon.png" alt="close">
                     </button>
                 </li>
-                <li><a data-i18n="home-nav" href="index.html">HOME</a></li>
-                <li><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
+                <li class="underline"><a data-i18n="home-nav" href="index.html">HOME</a></li>
+                <li class="underline"><a data-i18n="about-us-nav" href="about.html">ABOUT US</a></li>
                 <li class="services-header">
                     <a data-i18n="services-provided-nav" class="active" aria-current="page" href="services.html">SERVICES PROVIDED
                         <span class="material-icons dropdown-icon">
@@ -34,28 +40,28 @@
                     </a>
                     <ul class="drop-down">
                         <li><a data-i18n="service1" href="services.html#consultation">Pharmacist Consultation</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service2" href="services.html#minor-ailments">Minor Ailments Care</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service3" href="services.html#blood-pressure">Blood Pressure Readings</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service4" href="services.html#anticoagulation">Anticoagulation Management</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service5" href="services.html#blister-packs">Weekly Blister Packs</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service6" href="services.html#home-delivery">Free Home Delivery</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service7" href="services.html#compression">Compression Stockings & Socks</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service8" href="services.html#vaccinations">Vaccinations and Immunizations</a></li>
-                        <hr>
+                        
                         <li><a data-i18n="service9" href="services.html#multilingual">Multilingual Services</a></li>   
-                        <hr>
+                        
                         <li><a data-i18n="refill" href="refill.html" class="btn">Refill Your Prescriptions</a></li>
                         <li><a data-i18n="transfer" href="transfer.html" class="btn">Transfer Your Prescriptions</a></li>                  
                     </ul>  
                 </li>
-                <li><a data-i18n="contact-us-nav" href="contact.html">CONTACT US</a></li>
+                <li class="underline"><a data-i18n="contact-us-nav" href="contact.html">CONTACT US</a></li>
             </ul>
         </nav>
 
@@ -64,7 +70,8 @@
         <div class="pic-background">
             <img src="assets/images/main1.jpeg" alt="Medica Staff Group Picture" width="100%" height="300">
         </div>
-
+        
+        <h1 data-i18n="services-header" class="page-title">Services Provided</h1>
         <div class="header-title">
 
             <div class="lang-menu">
@@ -75,22 +82,19 @@
                         arrow_drop_down
                     </span>
                 </div>
-
                 <ul id="hiddenElement">
                     <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
                     <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
                     <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
                     <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
                 </ul>
-            </div>
-
-            <h1 data-i18n="services-header" class="page-title">Services Provided</h1>
+            </div> 
 
             <div class="buttons">
                 <span class="text-resize-btn" data-size="1em">A</span>
                 <span class="text-resize-btn" data-size="1.25em">A</span>
                 <span class="text-resize-btn" data-size="1.75em">A</span>
-            </div>
+            </div>  
         </div>
 
     </header>
@@ -98,7 +102,7 @@
     <!-- main content apart from header and footer -->
     <main>
         <div id="text">
-            <div class="services-nav">
+            <div class="services-provided">
                 <ul>
                     <li><a data-i18n="service1" href="#consultation">Pharmacist Consultation</a></li>
                     <li><a data-i18n="service2" href="#minor-ailments">Minor Ailments Care</a></li>
@@ -111,6 +115,11 @@
                     <li><a data-i18n="service9" href="#multilingual">Multilingual Services</a></li>    
                 </ul>
             </div>
+
+            <div class="rx-btns">
+                <a data-i18n="refill" href="refill.html" class="btn">Refill Your Prescriptions</a>
+                <a data-i18n="transfer" href="transfer.html" class="btn">Transfer Your Prescriptions</a>
+            </div>            
 
             <section class="services-desc">
 
@@ -161,7 +170,7 @@
                             <p data-i18n="service4-closing-download">
                                 Speak with a pharmacist for more details. 
                                 <br> 
-                                [Download our referral form here – Medica-Anticoagulation-Referral-Form]
+                                Download our referral form here – <a href="assets/Medica-Anticoagulation-Referral-Form.pdf"  target="_blank">Medica-Anticoagulation-Referral-Form</a>
                             </p> <!--make download form here-->     
                         </div>
                         <img src="assets/images/consult.jpg" alt="Anticoagulation Management" >
@@ -191,16 +200,16 @@
                             </p>                                 
                             <table>
                                 <tr>
-                                    <td data-i18n="mon-fri">Monday-Friday</td>
-                                    <td data-i18n="mon-fri-hours">10am-6pm</td>
+                                    <td data-i18n="mon-fri">Monday - Friday</td>
+                                    <td data-i18n="mon-fri-hours">10am - 6pm</td>
                                 </tr>
                                 <tr>
                                     <td data-i18n="sat">Saturday</td>
-                                    <td data-i18n="sat-hours">10am-3pm</td>
+                                    <td data-i18n="sat-hours">10am - 3pm</td>
                                 </tr>
                                 <tr>
                                     <td data-i18n="sun">Sunday</td>
-                                    <td data-i18n="sun-hours">11am-1pm</td>
+                                    <td data-i18n="sun-hours">11am - 1pm</td>
                                 </tr>
                             </table>
                             <p data-i18n="service6-closing">Have special circumstances? Let us know, our team will do our best to accommodate you.</p>
@@ -243,7 +252,7 @@
         </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="text">
         <section class="footer-contact-info">
             <div class="footer-address">
                 <h2 data-i18n="address">Address</h2>
@@ -252,7 +261,7 @@
                     <br>
                     Windsor, ON, Canada, N9A 3Z5
                 </p>
-                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="directions-button" target="_blank" rel="noopener noreferrer">
+                <a data-i18n="get-directions" href="https://www.google.com/maps/dir/?api=1&destination=1210+Erie+St+E,+Windsor,+ON+N9A+3Z5" class="btn" target="_blank" rel="noopener noreferrer">
                     Get Directions
                 </a>
             </div>
@@ -260,25 +269,28 @@
             <div class="footer-hours">
                 <h2 data-i18n="store-hours">Store Hours</h2>
                 <p data-i18n="store-hours-text">
-                    <strong>Sunday:</strong> 10am–2pm<br>
-                    <strong>Monday to Friday:</strong> 9am–7pm<br>
-                    <strong>Saturday:</strong> 9am–4pm
+                    <strong>Sunday:</strong> 10am – 2pm<br>
+                    <strong>Monday - Friday:</strong> 9am – 7pm<br>
+                    <strong>Saturday:</strong> 9am – 4pm
                 </p>
             </div>
 
             <div class="footer-contact-us">
                 <h2 data-i18n="contact-us">Contact Us</h2>
                 <p data-i18n="phone-fax">
-                    <strong>Phone: </strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
-                    <strong>Fax: </strong>(519) 255-7778
+                    <strong>Phone:</strong> <a href="tel:+15192557777">(519) 255-7777</a><br>
+                    <strong>Fax:</strong> (519) 255-7778
                 </p>
-                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="email-button">Email Us</a>
+                <a data-i18n="email-us" href="mailto:medicarxwindsor@gmail.com" class="btn">Email Us</a>
             </div>
 
-            <div class="footer-facebook">
+            <div class="facebook">
                 <a href="https://www.facebook.com/profile.php?id=100057429557260" class="facebook-link" target="_blank" rel="noopener noreferrer"> 
                     <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
                 </a>
+                <p data-i18n="facebook-desc-footer">
+                    <b>Have any comments or questions? Check out our Facebook page</b>                 
+                </p>
             </div>
 
         </section>

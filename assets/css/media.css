@@ -1,0 +1,199 @@
+/* Extra extra small */
+@media only screen and (max-width: 450px){
+    .download-btns {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px) {  /* 800 and down, side bar nav */
+    .logo-for-mobile img {
+        display: block;
+    }
+
+    .logo {
+        margin-top: 1rem;
+        margin: 0 auto;
+    }
+
+    .nav-bar {
+        justify-content: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: min(19rem, 100%);
+        z-index: 10;
+        transition: right 300ms ease-out;
+        padding: 2rem;
+        text-align: start;
+    }
+    .nav-bar.show {
+        right: 0;
+    }
+    .nav-bar.show ~ #overlay{
+        display: block;
+        transition: color 300ms ease-in-out;
+    } 
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+    #open-sidebar-button, #close-sidebar-button {
+        display: block;
+    }  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* BASE STYLES */
+    .footer-contact-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-contact-info div {
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    /* HOME PAGE */
+    .contact-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-info div {
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    /* SERVICED PROVIDED PAGE */
+    .desc, .services-article img {
+        max-width: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* BASE STYLES */
+    .footer-contact-info {
+        flex-wrap: nowrap;
+    }
+
+    footer .facebook p{
+        max-width: 95%;
+    }  
+}
+
+/* Large devices (laptops/desktops, 900px and up) */
+@media only screen and (min-width: 900px) {
+    
+    /* BASE STYLES */
+    main {
+        margin-inline: 10vw;
+        margin-top: 2rem;
+    }
+    footer {
+        padding-inline: 10vw;
+    }
+
+    /* HOME PAGE */
+    .contact-info {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .facebook{
+        max-width: 25%;
+    }
+    .facebook p {
+        max-width: 90%;
+    } 
+
+    .services-provided ul {
+        flex-direction: row;
+    }
+
+    .services-provided li {
+        flex: 1 1 calc(33.33% - 2rem);
+        padding: .5rem;
+        margin: .5rem;
+    }
+
+    .mini-about {
+        flex-direction: row;
+    }
+    /* .google-reviews {
+        vertical-align: middle;
+    } */
+
+    /* ABOUT US PAGE */
+    .rph-container {
+        flex-direction: row;
+    }
+    .rph {
+        max-width: 50%;
+    } 
+
+    /* SERVIVES PROVIDED PAGE */
+    .services-article {
+        flex-direction: row;
+        align-items: start;
+        margin-top: 1rem;
+    }
+    .services-article img {
+        max-width: 50%;
+    }
+    .desc {
+        max-width: 50%;
+    }     
+
+    /* CONTACT US PAGE */
+    .get-in-touch p{
+        text-align: left;
+        margin: 1rem 0;
+    }
+    
+    .form {
+        max-width: 70%;
+    }
+
+    .one {
+        width: 45%;
+    }
+
+    .map-parking {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:1100px){
+
+    /* BASE STYLES */
+    main {
+        margin-inline: 15vw;
+    }
+    footer {
+        padding-inline: 15vw;
+    }
+    .rph {
+        display: flex;
+    } 
+    .bocce {
+        display: flex;
+        justify-content: space-around;
+    }
+    .bocce p {
+        max-width: 50%;
+    }
+
+    /* ABOUT US PAGE */
+    .rph-container p {
+        max-width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

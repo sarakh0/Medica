@@ -1,0 +1,39 @@
+/* Re-using css for services nav from home page */
+
+.service {
+  margin-block: clamp(1rem, 3vh, 2rem);
+  background-color: var(--lightGreen);
+  padding: 1rem;
+}
+
+.services-article img {
+  display: block;
+  /* max-width: 40%; */
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;  
+}
+
+.services-article {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 1rem;
+}
+
+.services-article ul {
+  padding: 1rem;
+}
+
+.desc {
+  /* max-width: 50%; */
+  max-width: 100%;
+}
+
+.service table, .service td {
+  background-color: var(--primary);
+  font-weight: bold;
+  color: var(--green1);
+  border: 5px solid var(--lightGreen);
+}

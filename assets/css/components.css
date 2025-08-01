@@ -1,0 +1,223 @@
+/* ================= Buttons ================= */
+.btn {
+  color: var(--primary);
+  background-color: var(--green1);
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: inherit;
+}
+
+.btn:hover {
+  background-color: var(--darkGreen);
+}
+
+.footer .btn {
+  background-color: var(--lightGreen);
+  color: var(--green1);
+  line-height: 2rem;
+}
+
+.footer .btn:hover {
+  background-color: var(--darkGreen);
+  color: var(--primary);
+}
+/* ================= Text Resize Buttons ================= */
+.buttons {
+  display: flex;
+  justify-content: flex-end; /* right */
+  align-items: flex-end; /* aligns them at the bottom */
+  gap: clamp(0.5rem, 2vw, 0.75rem);
+
+}
+
+.text-resize-btn {
+  display: inline-flex;
+  padding-inline: clamp(0.25rem, 2vw, 0.75rem);
+  background: var(--darkGreen);
+  color: var(--green1);
+  cursor: pointer;
+}
+
+.text-resize-btn.active {
+  background: var(--primary);
+}
+
+.text-resize-btn:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+.text-resize-btn:nth-child(3) {
+  font-size: 2rem;
+}
+
+h2, h3, p, a,.btn { /* smoother transition through sizes */
+  transition: 0.5s ease;
+}
+
+/* ================= Dropdown Menu ================= */
+.drop-down {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  width: 260px;
+  background: var(--primary);
+  z-index: 1;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+/* list items */
+.drop-down li {
+  list-style: none;
+}
+
+/* anchor styles */
+.drop-down a {
+  display: block;
+  color: var(--green1);
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 5px;
+}
+
+/* hover effect on each link */
+.drop-down a:hover {
+  background-color: var(--lightTextHover);
+  color: var(--darkGreen);
+}
+
+/* CTA buttons at the bottom */
+.drop-down a.btn {
+  color: var(--primary);
+  margin: .5rem;
+}
+
+.drop-down a.btn:hover {
+  background-color: var(--darkGreen);
+}
+
+/* arrow rotation */
+.dropdown-icon {
+  font-size: 20px;
+  margin-left: 4px;
+  transition: transform 0.3s ease;
+}
+
+.services-header:hover .dropdown-icon { /* rotate the icon 180deg*/
+  transform: rotate(180deg);
+}
+
+.services-header a { /* aligns the icon with the header */
+  display: flex
+}
+
+.services-header {
+  position: relative; 
+}
+
+.services-header:hover .drop-down { /* drop down appears on hover */
+  display: block;
+}
+
+/* ================= Language Selector ================= */
+.selected-lang {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2;
+  width: 120px;
+  gap: 5px;
+}
+
+.selected-lang {
+  width: 32px;
+  height: 32px;
+}
+
+.dropdown-icon1 {
+  font-size: 1.2em; 
+}
+
+.lang-menu {
+  margin-top: 25px;
+  margin: auto 0;
+  position: relative;
+}
+
+.lang-menu ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  border: 1px solid var(--lightTextHover);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: none;
+  top: 35px;
+  left: 0;
+}
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.lang-menu ul li a {
+  width: 130px;
+  display: block;
+  padding: 5px 10px;
+}
+
+.lang-menu ul li a:hover {
+  background-color: var(--lightTextHover);
+}
+
+
+/* Flags beside language - may get rid of these ************************************************************* */
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.en:before {
+  background-image: url("https://flagsapi.com/CA/flat/32.png");
+}
+
+.fr:before {
+  background-image: url("https://flagsapi.com/FR/flat/32.png");
+}
+
+.it:before {
+  background-image: url("https://flagsapi.com/IT/flat/32.png");
+}
+
+.ar:before {
+  background-image: url("https://flagsapi.com/AE/flat/32.png");
+}
+
+.lang-menu.open ul{
+  display: block;
+}
+
+.lang-menu.open .dropdown-icon1 {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.dropdown-icon1 {
+  transition: transform 0.3s ease;
+}

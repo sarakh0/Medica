@@ -1,16 +1,17 @@
-/*more organized css, mobile first implememtation*/
+/* BASE */
+@import url('./base.css');
 
-/* Extra small devices (phones, 600px and down) ******************************************************* design according to this size and work way up!/       
-@media only screen and (max-width: 600px) {}
+/* LAYOUT */
+@import url('./layout.css');
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+/* COMPONENTS */
+@import url('./components.css');
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* PAGES */
+@import url('./pages/home.css');
+@import url('./pages/about.css');
+@import url('./pages/services.css');
+@import url('./pages/contact.css');
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/* MEDIA QUERIES */
+@import url('./media.css');
