@@ -9,7 +9,6 @@
   transition: background-color 0.3s ease;
   font-weight: 600;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: inherit;
 }
 
 .btn:hover {
@@ -17,7 +16,7 @@
 }
 
 .footer .btn {
-  background-color: var(--lightGreen);
+  background-color: var(--lightTextHover);
   color: var(--green1);
   line-height: 2rem;
 }
@@ -31,20 +30,22 @@
   display: flex;
   justify-content: flex-end; /* right */
   align-items: flex-end; /* aligns them at the bottom */
-  gap: clamp(0.5rem, 2vw, 0.75rem);
-
+  gap: clamp(0.25rem, 2vw, 0.75rem);
+  margin-top: 6px;
 }
 
 .text-resize-btn {
   display: inline-flex;
   padding-inline: clamp(0.25rem, 2vw, 0.75rem);
-  background: var(--darkGreen);
-  color: var(--green1);
+  background: var(--green1);
+  color: var(--primary);
   cursor: pointer;
+  border-radius: 3px;
 }
 
 .text-resize-btn.active {
-  background: var(--primary);
+  background: var(--darkGreen);
+  color: var(--primary);
 }
 
 .text-resize-btn:nth-child(2) {
@@ -83,7 +84,7 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
   display: block;
   color: var(--green1);
   font-size: 0.95rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s;
   border-radius: 5px;
@@ -135,17 +136,10 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
   justify-content: space-between;
   align-items: center;
   line-height: 2;
-  width: 120px;
-  gap: 5px;
-}
-
-.selected-lang {
-  width: 32px;
-  height: 32px;
-}
-
-.dropdown-icon1 {
-  font-size: 1.2em; 
+  width: 110px;
+  background-color: var(--green1);
+  border-radius: 3px;
+  padding-inline: 7px;
 }
 
 .lang-menu {
@@ -173,7 +167,7 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
 }
 
 .lang-menu ul li a {
-  width: 130px;
+  width: 110px;
   display: block;
   padding: 5px 10px;
 }
@@ -183,7 +177,7 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
 }
 
 
-/* Flags beside language - may get rid of these ************************************************************* */
+/* Flags beside language - may get rid of these *************************************************************
 .lang-menu ul li a:before {
   content: '';
   display: inline-block;
@@ -207,7 +201,7 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
 
 .ar:before {
   background-image: url("https://flagsapi.com/AE/flat/32.png");
-}
+} */
 
 .lang-menu.open ul{
   display: block;

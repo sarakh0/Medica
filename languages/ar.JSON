@@ -20,6 +20,8 @@
     "phone-fax": "الهاتف: (519) 255-7777<br>فاكس: (519) 255-7778",
     "email-us": "أرسل لنا بريدًا إلكترونيًا",
     "facebook-desc": "تابعنا على فيسبوك للحصول على<br>آخر التحديثات، الأخبار،<br>والقصص من<br>صيدلية ميديكا.",
+    "facebook-desc-footer": "<b>هل لديك أي تعليقات أو أسئلة؟ تفضل بزيارة صفحتنا على فيسبوك</b>",
+
     "services-provided": "الخدمات المقدمة",
     "services-desc": "في صيدلية ميديكا، نقدم مجموعة من الخدمات الصحية المصممة لتناسب احتياجاتك. من تجديد الوصفات الطبية إلى الاستشارات الشخصية، استكشف ما يمكننا تقديمه لك.",
     "service1": "استشارة مع الصيدلي",
@@ -140,7 +142,7 @@
     "contact-placeholder-subject": "أدخل الموضوع",
 
     "contact-label-message": "الرسالة:",
-    "contact-placehlder-message": "اكتب رسالتك",
+    "contact-placeholder-message": "اكتب رسالتك",
 
     "contact-label-upload": "رفع ملف:",
 
@@ -166,6 +168,7 @@
     "refill-placeholder-last": "اسم العائلة",
     "refill-phone": "رقم الهاتف:",
     "refill-rxNum": "رقم الوصفة الطبية (Rx):",
+    "rxNum-text": "يرجى فصل أرقام الوصفات الطبية باستخدام فاصلة",
     "refill-rxName": "اسم الدواء (اختياري):",
     "refill-placeholder-rxName": "مثال: إيبوبروفين 600 مجم",
     "refill-comments": "تعليقات أو تعليمات إضافية:",
@@ -184,7 +187,8 @@
     "transfer-placeholder-last": "اسم العائلة",
     "transfer-phone": "رقم الهاتف:",
     "transfer-DOB": "تاريخ الميلاد:",
-    "transfer-prevNum": "رقم هاتف الصيدلية السابقة:",
+    "transfer-pharmName": "اسم الصيدلية الحالية",
+    "transfer-currentNum": "رقم هاتف الصيدلية الحالية",    
     "transfer-comments": "تعليقات أو تعليمات إضافية:",
     "transfer-placeholder-comments": "مثال: الرجاء تجهيز [الوصفة] للاستلام"
     

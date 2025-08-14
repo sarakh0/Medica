@@ -3,6 +3,7 @@ const textContainer = document.getElementById('text');
 
 window.addEventListener('DOMContentLoaded', () => {
     const savedSize = localStorage.getItem('fontSize');
+    const savedLineHeight = localStorage.getItem('lineHeight');
     if (savedSize) {
         textContainer.style.fontSize = savedSize;
         resizeBtns.forEach(btn => {
@@ -10,6 +11,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
             }
         });
+    }
+    if (savedLineHeight) {
+        textContainer.style.lineHeight = savedLineHeight;
     }
 });
 
@@ -23,11 +27,21 @@ resizeBtns.forEach(btn => {
 
         // update font size
         const size = btn.getAttribute('data-size');
-        setSizePreference(size);
+        const lineHeight = btn.getAttribute('data-lineheight');
+        setSizePreference(size, lineHeight);
+
         textContainer.style.fontSize = size;
+
+        // update line height
+        if (lineHeight) {
+            textContainer.style.lineHeight = lineHeight;
+        }
     });
 });
 
-function setSizePreference(size) {
+function setSizePreference(size, lineHeight) {
     localStorage.setItem('fontSize', size);
+    if (lineHeight) {
+        localStorage.setItem('lineHeight', lineHeight);
+    }
 }

@@ -42,9 +42,10 @@
 .services-provided li {
   padding: 5px;
   margin: 5px;
-  background-color: #efffee;
+  background-color: var(--lightGreen);
   border-radius: 6px;
   text-align: center;
+  font-size: 1em;
 }
 
 .rx-btns {
@@ -66,10 +67,6 @@
 
 .mini-about p, .mini-about ul, .mini-about h3 {
     margin-top: 1rem;
-}
-
-.mini-about h3{
-    color: var(--green1);
 }
 
 .mini-about ul {

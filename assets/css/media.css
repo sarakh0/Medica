@@ -3,9 +3,27 @@
     .download-btns {
         flex-direction: column;
     }
+    .rx-btns {
+        flex-direction: column;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:800px) {  /* 800 and down, side bar nav */
+
+    /* services drop down - hide on mobile */
+    .drop-down {
+        display: none !important;
+    }
+    .services-header .dropdown-icon {
+        display: none;
+    }
+
+    /* nav */
+
     .logo-for-mobile img {
         display: block;
     }
@@ -75,6 +93,7 @@
 @media only screen and (min-width: 768px) {
 
     /* BASE STYLES */
+    
     .footer-contact-info {
         flex-wrap: nowrap;
     }
@@ -90,7 +109,6 @@
     /* BASE STYLES */
     main {
         margin-inline: 10vw;
-        margin-top: 2rem;
     }
     footer {
         padding-inline: 10vw;
@@ -172,6 +190,7 @@
     /* BASE STYLES */
     main {
         margin-inline: 15vw;
+        /* margin-block: 0;         */
     }
     footer {
         padding-inline: 15vw;
@@ -194,6 +213,9 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 1300px) {
+    /* HOME PAGE */
+    .video-background {
+        height: 500px;
+    }
 }

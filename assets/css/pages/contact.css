@@ -7,12 +7,17 @@
 }
 
 .get-in-touch p {
-    font-size: clamp(1.25rem, 3vw, 1.5rem);
-    margin: 1rem;
-    text-align: center;
+  margin: 1rem;
+  text-align: center;
+  font-size: clamp(1.125em, 3vw, 1.25em);
 }
 
 /* Form */
+
+/* also for refill and transfer */
+.preForm {
+  color: var(--mainText);
+}
 
 .form {
   max-width: 100%;
@@ -29,7 +34,7 @@ fieldset {
 }
 
 legend {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   padding: 0 .25rem;
   color: var(--green1);
   font-weight: bold;
@@ -48,7 +53,7 @@ input, textarea {
   border-radius: 5px;
   border: none;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 0.9rem;
+  font-size: 0.875em;
 }
 
 input:not(:placeholder-shown):valid {

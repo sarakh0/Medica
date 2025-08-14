@@ -20,6 +20,7 @@
     "phone-fax": "Telefono: (519) 255-7777<br>Fax: (519) 255-7778",
     "email-us": "Scrivici un'email",
     "facebook-desc": "Seguici su Facebook per <br> ricevere aggiornamenti, notizie <br> e storie dalla Farmacia Medica.",
+    "facebook-desc-footer": "<b>Hai commenti o domande? Dai un'occhiata alla nostra pagina Facebook</b>",
 
     "services-provided": "Servizi Offerti",
     "services-desc": "Presso la Farmacia Medica offriamo una gamma di servizi sanitari su misura per le tue esigenze. Dai rinnovi delle prescrizioni alle consulenze personalizzate, scopri cosa possiamo fare per te.",
@@ -141,7 +142,7 @@
     "contact-placeholder-subject": "Inserisci l’oggetto",
 
     "contact-label-message": "Messaggio:",
-    "contact-placehlder-message": "Scrivi il tuo messaggio",
+    "contact-placeholder-message": "Scrivi il tuo messaggio",
 
     "contact-label-upload": "Carica un file:",
 
@@ -166,6 +167,7 @@
     "refill-placeholder-last": "Cognome",
     "refill-phone": "Numero di telefono:",
     "refill-rxNum": "Numero ricetta (Rx):",
+    "rxNum-text": "Si prega di separare i numeri di prescrizione con una virgola",
     "refill-rxName": "Nome del medicinale (facoltativo):",
     "refill-placeholder-rxName": "Es. Ibuprofene 600mg",
     "refill-comments": "Commenti o istruzioni aggiuntive:",
@@ -183,7 +185,8 @@
     "transfer-placeholder-last": "Cognome",
     "transfer-phone": "Numero di telefono:",
     "transfer-DOB": "Data di nascita:",
-    "transfer-prevNum": "Numero di telefono della farmacia precedente:",
+    "transfer-pharmName": "Nome della farmacia attuale", 
+    "transfer-currentNum": "Numero di telefono della farmacia attuale",
     "transfer-comments": "Commenti o istruzioni aggiuntive:",
     "transfer-placeholder-comments": "Es. Si prega di preparare [prescrizione] per il ritiro"
     

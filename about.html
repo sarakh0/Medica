@@ -23,7 +23,7 @@
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
-                <img src="assets/images/Logo1.png" alt="Medica Logo">
+                <img src="assets/images/Logo1.png" alt="Medica Logo" height="90px">
             </a>
             <ul class="nav-links">
                 <li>
@@ -69,35 +69,34 @@
         <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
 
         <div class="pic-background">
-            <img src="assets/images/main1.jpeg" alt="Medica Staff Group Picture" width="100%" height="300">
+            <img src="assets/images/main1.jpeg" alt="Medica Staff Group Picture" width="100%" height="100%">
         </div>
 
         <h1 class="page-title" data-i18n="about-us-title">About Us</h1>
-        <div class="header-title">
-            <div class="lang-menu">
-                <div class="selected-lang" onclick="toggleElement()">
-                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
-                    <span id="selected-lang-label">English</span>
-                    <span class="material-icons dropdown-icon1">
-                        arrow_drop_down
-                    </span>
-                </div>
-                <ul id="hiddenElement">
-                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
-                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
-                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
-                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
-                </ul>
-            </div> 
-
-            <div class="buttons">
-                <span class="text-resize-btn" data-size="1em">A</span>
-                <span class="text-resize-btn" data-size="1.25em">A</span>
-                <span class="text-resize-btn" data-size="1.75em">A</span>
-            </div>  
-        </div>  
     </header>
+    <aside class="lang-text-buttons">
+        <div class="lang-menu">
+            <div class="selected-lang" onclick="toggleElement()">
+                <!-- <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag"> -->
+                <span id="selected-lang-label">English</span>
+                <span class="material-icons dropdown-icon1">
+                    arrow_drop_down
+                </span>
+            </div>
+            <ul id="hiddenElement">
+                <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+            </ul>
+        </div> 
 
+        <div class="buttons">
+            <span class="text-resize-btn" data-size="1em">A</span>
+            <span class="text-resize-btn" data-size="1.25em">A</span>
+            <span class="text-resize-btn" data-size="1.75em">A</span>
+        </div> 
+    </aside>
     <!-- main content apart from header and footer -->
     <main>
         <div id="text">
@@ -125,23 +124,23 @@
 
                     <div class="rph">
                         <figure>
-                            <img src="assets/images/AK.jpg" alt="Pharmacist, Amar Khaira">
-                            <figcaption data-i18n="ak-caption">Amar Khaira, Pharmacist</figcaption>
+                            <img src="assets/images/AK.jpg" alt="Pharmacist, Amar">
+                            <figcaption data-i18n="ak-caption">Amar, Pharmacist</figcaption>
                         </figure>
                         <p data-i18n="ak-desc">[description; occupation, credentials, goals and outside work personality]</p>
                     </div>
 
                     <div class="rph">
                         <figure>
-                            <img src="assets/images/JI.jpg" alt="Pharmacist, Jermey Ing">
-                            <figcaption data-i18n="ji-caption">Jeremey Ing, Pharmacist</figcaption>
+                            <img src="assets/images/JI.jpg" alt="Pharmacist, Jermey">
+                            <figcaption data-i18n="ji-caption">Jeremey, Pharmacist</figcaption>
                         </figure>
                         <p data-i18n="ji-desc">[description; occupation, credentials, goals and outside work personality]</p>
                     </div>
                     <div class="rph">
                         <figure>
-                            <img src="assets/images/BM.jpg" alt="Pharmacist, Brandon M">
-                            <figcaption data-i18n="bm-caption">Brandon M, Pharmacist</figcaption>
+                            <img src="assets/images/BM.jpg" alt="Pharmacist, Brandon">
+                            <figcaption data-i18n="bm-caption">Brandon, Pharmacist</figcaption>
                         </figure>
                         <p data-i18n="bm-desc">[description; occupation, credentials, goals and outside work personality]</p>
                     </div>

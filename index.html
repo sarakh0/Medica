@@ -10,7 +10,6 @@
 </head>
 <body>
     <header> 
-
         <div class="mobile-header"> 
             <a href="index.html" class="logo-for-mobile"> 
                 <img src="assets/images/Logo1.png" alt="Medica Logo">
@@ -23,7 +22,7 @@
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
-                <img src="assets/images/Logo1.png" alt="Medica Logo">
+                <img src="assets/images/Logo1.png" alt="Medica Logo" height="90px">
             </a>
             <ul class="nav-links">
                 <li>
@@ -76,33 +75,32 @@
             </video>
         </div>
         
-        <h1 class="page-title" data-i18n="welcome-msg">Welcome to the Medica family!</h1>
-
-        <div class="header-title">
-
-            <div class="lang-menu">
-                <div class="selected-lang" onclick="toggleElement()">
-                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
-                    <span id="selected-lang-label">English</span>
-                    <span class="material-icons dropdown-icon1">
-                        arrow_drop_down
-                    </span>
-                </div>
-                <ul id="hiddenElement">
-                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
-                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
-                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
-                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
-                </ul>
-            </div> 
-
-            <div class="buttons">
-                <span class="text-resize-btn" data-size="1em">A</span>
-                <span class="text-resize-btn" data-size="1.25em">A</span>
-                <span class="text-resize-btn" data-size="1.75em">A</span>
-            </div>  
-        </div>                      
+        <h1 class="page-title" data-i18n="welcome-msg">Welcome to Medica Pharmacy!</h1>                     
     </header>
+
+    <aside class="lang-text-buttons">
+        <div class="lang-menu">
+            <div class="selected-lang" onclick="toggleElement()">
+                <!-- <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag"> -->
+                <span id="selected-lang-label">English</span>
+                <span class="material-icons dropdown-icon1">
+                    arrow_drop_down
+                </span>
+            </div>
+            <ul id="hiddenElement">
+                <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+            </ul>
+        </div> 
+
+        <div class="buttons">
+            <span class="text-resize-btn" data-size="1em" data-lineheight="2">A</span>
+            <span class="text-resize-btn" data-size="1.25em" data-lineheight="2.25">A</span>
+            <span class="text-resize-btn" data-size="1.75em" data-lineheight="2.5">A</span>
+        </div> 
+    </aside>
 
     <!-- main content apart from header and footer -->
     <main id="text">
@@ -260,7 +258,7 @@
                     <img src="assets/images/Facebook_Logo_Secondary.png" alt="Facebook Logo" height="50px" width="50px">
                 </a>
                 <p data-i18n="facebook-desc-footer">
-                    <b>Have any comments or questions? Check out our Facebook page</b>                 
+                    Have any comments or questions? Check out our Facebook page           
                 </p>
             </div>
 

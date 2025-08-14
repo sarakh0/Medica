@@ -22,7 +22,7 @@
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
-                <img src="assets/images/Logo1.png" alt="Medica Logo">
+                <img src="assets/images/Logo1.png" alt="Medica Logo"  height="90px">
             </a>
             <ul class="nav-links">
                 <li>
@@ -67,37 +67,36 @@
 
         <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
             
-        <h1 class="page-title" data-i18n="refill-header">Refill Your Prescriptions</h1>
-        <div class="header-title">
-
-            <div class="lang-menu">
-                <div class="selected-lang" onclick="toggleElement()">
-                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
-                    <span id="selected-lang-label">English</span>
-                    <span class="material-icons dropdown-icon1">
-                        arrow_drop_down
-                    </span>
-                </div>
-                <ul id="hiddenElement">
-                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
-                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
-                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
-                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
-                </ul>
-            </div> 
-
-            <div class="buttons">
-                <span class="text-resize-btn" data-size="1em">A</span>
-                <span class="text-resize-btn" data-size="1.25em">A</span>
-                <span class="text-resize-btn" data-size="1.75em">A</span>
-            </div>  
-        </div>  
+        <h1 class="page-title" data-i18n="refill-header">Refill Your Prescriptions</h1> 
     </header>
+    <aside class="lang-text-buttons">
+        <div class="lang-menu">
+            <div class="selected-lang" onclick="toggleElement()">
+                <!-- <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag"> -->
+                <span id="selected-lang-label">English</span>
+                <span class="material-icons dropdown-icon1">
+                    arrow_drop_down
+                </span>
+            </div>
+            <ul id="hiddenElement">
+                <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+            </ul>
+        </div> 
+
+        <div class="buttons">
+            <span class="text-resize-btn" data-size="1em">A</span>
+            <span class="text-resize-btn" data-size="1.25em">A</span>
+            <span class="text-resize-btn" data-size="1.75em">A</span>
+        </div> 
+    </aside>    
 
     <!-- main content apart from header and footer -->
     <main>
         <div id="text">
-            <h3 data-i18n="refill-desc">
+            <h3 class="preForm" data-i18n="refill-desc">
                 Refill your existing prescription by contacting the pharmacy or completing the form below.
                 <br>
                 Once we receive your request, a member of our pharmacy team will get in touch to confirm the details.
@@ -120,7 +119,8 @@
                     <input type="tel" name="phonenumber" placeholder="xxx-xxx-xxxx"  pattern="^(\d{3}-\d{3}-\d{4}|\d{10})$" required>
 
                     <br/> 
-                    <label data-i18n="refill-rxNum">Rx Number(s)</label> <p id="rxNum-text">Please seperate different Rx numbers by comma</p>                 
+                    <label data-i18n="refill-rxNum">Rx Number(s)</label> 
+                    <p data-i18n="rxNum-text">Please seperate different Rx numbers by comma</p>                 
                     <input type="text" name="rxnumber1" placeholder="1234567,1234568, ..." pattern="(\d{7})(,\d{7})*" required>
                     <br/>
                     <label data-i18n="refill-rxName">Prescription Name(s) (optional)</label>

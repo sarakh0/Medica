@@ -20,16 +20,21 @@ async function fetchLanguageData(lang) {
 
 // Function to update content based on selected language
 function updateContent(langData) {
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const key = element.getAttribute("data-i18n");
-
-    if (element.tagName === "INPUT" && key === "placeholder_text") {
-      // If the element is an input with placeholder_text attribute, set placeholder
-      element.placeholder = langData[key];
-    } else {
-      // For other elements, set text content
-      //element.textContent = langData[key];
-      element.innerHTML = langData[key];
+  document.querySelectorAll("[data-i18n], [data-i18n-placeholder]").forEach((element) => { 
+    // For normal text
+    if (element.hasAttribute("data-i18n")) {
+      const key = element.getAttribute("data-i18n");
+      if (langData[key]) {
+        element.innerHTML = langData[key];
+      }
+    }
+    
+    // For placeholders in contact forms
+    if (element.hasAttribute("data-i18n-placeholder")) {
+      const key = element.getAttribute("data-i18n-placeholder");
+      if (langData[key]) {
+        element.placeholder = langData[key];
+      }   
     }
   });
 }
@@ -51,20 +56,20 @@ const langLabels = {
   ar: "العربية"
 };
 
-const langFlags = {
-  en: "https://flagsapi.com/CA/flat/32.png",
-  fr: "https://flagsapi.com/FR/flat/32.png",
-  it: "https://flagsapi.com/IT/flat/32.png",
-  ar: "https://flagsapi.com/AE/flat/32.png"
-};
+// const langFlags = {
+//   en: "https://flagsapi.com/CA/flat/32.png",
+//   fr: "https://flagsapi.com/FR/flat/32.png",
+//   it: "https://flagsapi.com/IT/flat/32.png",
+//   ar: "https://flagsapi.com/AE/flat/32.png"
+// };
 
 
 function updateSelectedLang(lang) {
   // update label
   document.getElementById("selected-lang-label").textContent = langLabels[lang] ?? lang;
-  // update flag
-  document.getElementById("selected-flag").src = langFlags[lang] ?? langFlags["en"];
-  document.getElementById("selected-flag").alt = langLabels[lang] ?? lang;
+  // // update flag
+  // document.getElementById("selected-flag").src = langFlags[lang] ?? langFlags["en"];
+  // document.getElementById("selected-flag").alt = langLabels[lang] ?? lang;
 }
 
 /* appear on click - lang menu */
@@ -79,4 +84,17 @@ document.addEventListener("click", function (event) {
   if (!menu.contains(event.target)) {
     menu.classList.remove("open");
   }
+});
+
+
+/* appear on click - drop down menu icon - for mobile */
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleBtn = document.querySelector('.services-toggle');
+  const dropdownMenu = document.getElementById('services-menu');
+
+  toggleBtn.addEventListener('click', () => {
+    const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+    toggleBtn.setAttribute('aria-expanded', !isExpanded);
+    dropdownMenu.hidden = isExpanded;
+  });
 });

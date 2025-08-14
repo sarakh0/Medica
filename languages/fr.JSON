@@ -20,6 +20,7 @@
     "phone-fax": "Téléphone : (519) 255-7777<br>Fax : (519) 255-7778",
     "email-us": "Envoyez-nous un courriel",
     "facebook-desc": "Suivez-nous sur Facebook <br> pour les dernières mises à jour, <br> nouvelles et histoires de <br> la Pharmacie Medica.",
+    "facebook-desc-footer": "<b>Vous avez des commentaires ou des questions ? Consultez notre page Facebook</b>",
 
     "services-provided": "Services Offerts",
     "services-desc": "Chez Medica Pharmacie, nous offrons une gamme de services de santé adaptés à vos besoins. Des renouvellements d'ordonnances aux consultations personnalisées, découvrez ce que nous pouvons faire pour vous.",
@@ -138,7 +139,7 @@
     "contact-placeholder-subject": "Entrez le sujet",
 
     "contact-label-message": "Message :",
-    "contact-placehlder-message": "Écrivez votre message",
+    "contact-placeholder-message": "Écrivez votre message",
 
     "contact-label-upload": "Joindre un fichier :",
 
@@ -164,6 +165,7 @@
     "refill-placeholder-last": "Nom de famille",
     "refill-phone": "Numéro de téléphone :",
     "refill-rxNum": "Numéro d’ordonnance (Rx) :",
+    "rxNum-text": "Veuillez séparer les numéros d’ordonnance par une virgule",
     "refill-rxName": "Nom du médicament (optionnel) :",
     "refill-placeholder-rxName": "Ex. Ibuprofène 600mg",
     "refill-comments": "Commentaires ou instructions supplémentaires :",
@@ -182,7 +184,8 @@
     "transfer-placeholder-last": "Nom de famille",
     "transfer-phone": "Numéro de téléphone :",
     "transfer-DOB": "Date de naissance :",
-    "transfer-prevNum": "Numéro de téléphone de la pharmacie précédente :",
+    "transfer-pharmName": "Nom de la pharmacie actuelle",
+    "transfer-currentNum": "Numéro de téléphone de la pharmacie actuelle",
     "transfer-comments": "Commentaires ou instructions supplémentaires :",
     "transfer-placeholder-comments": "Ex. Veuillez préparer [ordonnance] pour le retrait"
     

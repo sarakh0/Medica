@@ -22,7 +22,7 @@
 
         <nav class="nav-bar">
             <a href="index.html" class="logo"> 
-                <img src="assets/images/Logo1.png" alt="Medica Logo">
+                <img src="assets/images/Logo1.png" alt="Medica Logo" height="90px">
             </a>
             <ul class="nav-links">
                 <li>
@@ -68,38 +68,35 @@
         <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
             
         <h1 class="page-title" data-i18n="transfer-header">Transfer Your Prescriptions</h1>
-
-        <div class="header-title">
-
-            <div class="lang-menu">
-                <div class="selected-lang" onclick="toggleElement()">
-                    <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag">
-                    <span id="selected-lang-label">English</span>
-                    <span class="material-icons dropdown-icon1">
-                        arrow_drop_down
-                    </span>
-                </div>
-                <ul id="hiddenElement">
-                    <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
-                    <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
-                    <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
-                    <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
-                </ul>
-            </div> 
-
-            <div class="buttons">
-                <span class="text-resize-btn" data-size="1em">A</span>
-                <span class="text-resize-btn" data-size="1.25em">A</span>
-                <span class="text-resize-btn" data-size="1.75em">A</span>
-            </div>  
+    </header>
+    <aside class="lang-text-buttons">
+        <div class="lang-menu">
+            <div class="selected-lang" onclick="toggleElement()">
+                <!-- <img id="selected-flag" src="https://flagsapi.com/CA/flat/32.png" alt="Selected language flag"> -->
+                <span id="selected-lang-label">English</span>
+                <span class="material-icons dropdown-icon1">
+                    arrow_drop_down
+                </span>
+            </div>
+            <ul id="hiddenElement">
+                <li> <a class="en" data-i18n="eng" href="#" onclick="changeLanguage('en')">English</a></li>
+                <li> <a class="fr" data-i18n="fr" href="#" onclick="changeLanguage('fr')">Français</a></li>
+                <li> <a class="it" data-i18n="it" href="#" onclick="changeLanguage('it')">Italien</a></li>
+                <li> <a class="ar" data-i18n="ar" href="#" onclick="changeLanguage('ar')">العربية</a></li>                    
+            </ul>
         </div> 
 
-    </header>
+        <div class="buttons">
+            <span class="text-resize-btn" data-size="1em">A</span>
+            <span class="text-resize-btn" data-size="1.25em">A</span>
+            <span class="text-resize-btn" data-size="1.75em">A</span>
+        </div> 
+    </aside>
 
     <!-- main content apart from header and footer -->
     <main>
         <div id="text">
-            <h3 data-i18n="transfer-desc">
+            <h3 class="preForm" data-i18n="transfer-desc">
                 Looking to become a patient at Medica Pharmacy? We'd love to have you. 
                 <br/>
                 Complete the form below, and we will take care of the rest! A member of our team will contact you to verify the details
