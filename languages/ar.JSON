@@ -5,12 +5,7 @@
     "services-provided-nav": "الخدمات المقدمة",
     "contact-us-nav": "اتصل بنا",
 
-    "welcome-msg": "مرحبًا بك في عائلة ميديكا!",
-
-    "eng": "الإنجليزية",
-    "fr": "الفرنسية",
-    "it": "الإيطالية",
-    "ar": "العربية",
+    "welcome-msg": "مرحبًا بكم في صيدلية ميدكا!",
 
     "address": "العنوان",
     "get-directions": "احصل على الاتجاهات",
@@ -67,17 +62,18 @@
 
     "meet-your-rph": "تعرف على صيدليتك!",
 
-    "fv-caption": "فرانشيسكو فيلا، صيدلي ومالك",
+    "fv-caption": "Frank, صيدلي ومالك",
     "fv-desc": "",
 
-    "ak-caption": "أمار خيرا، صيدلي",
+    "ak-caption": "Amar, صيدلي",
     "ak-desc": "",
 
-    "ji-caption": "جيريمي إينغ، صيدلي",
+    "ji-caption": "Jeremy, صيدلي",
     "ji-desc": "",
 
-    "bm-caption": "براندون م، صيدلي",
+    "bm-caption": "Brandon, صيدلي",
     "bm-desc": "",
+
 
     "the-bocce-court": "ملعب البوتشي",
     "bocce-text": "ربما لاحظت ملاعب البوتشي بجانب الصيدلية. البوتشي هو لعبة إيطالية تقليدية يستمتع بها العديد من الثقافات الأخرى أيضًا، وتُعرف باسم \"بول\" في فرنسا وتشبه لعبة بولينج الحديقة في إنجلترا. إنها لعبة مهارة واستراتيجية ومتعة.<br>تم بناء هذه الملاعب من قبل مالك صيدلية ميديكا، فرانشيسكو فيلا، كوسيلة لتحسين الجانب الشرقي من شارع إيري وخلق مساحة تجمع الناس من كل مكان. سواء كنت تشارك في لعبة أو فقط تمر لتناول الآيس كريم من الجهة المقابلة، فأنت دائمًا مرحب بك للاسترخاء في الملاعب والاستمتاع بالأجواء.",
@@ -127,30 +123,30 @@
     "title-contact": "اتصل بنا",
     "contact-us-header": "اتصل بنا",
 
-    "numbers-opening": "للحصول على رد أسرع، اتصل بنا خلال ساعات العمل العادية:",
+    "numbers-opening": "للحصول على رد أسرع، اتصل بنا خلال ساعات العمل العادية",
     "phone-fax-email": "<b>الهاتف: </b> <a href=\"tel:+15192557777\">(519) 255-7777</a><br><b>الفاكس: </b> (519) 255-7778<br><b>البريد الإلكتروني:</b> <a href=\"mailto:medicarxwindsor@gmail.com\">medicarxwindsor@gmail.com</a>",
 
     "pre-form-message": "تتواصل معنا بعد ساعات العمل؟ أرسل لنا بريدًا إلكترونيًا أو املأ نموذج الاتصال أدناه. سنرد عليك في أقرب وقت ممكن.",
 
-    "contact-label-name": "الاسم:",
+    "contact-label-name": "الاسم",
     "contact-placeholder-name": "أدخل اسمك",
 
-    "contact-label-email": "البريد الإلكتروني:",
+    "contact-label-email": "البريد الإلكتروني",
     "contact-placeholder-email": "أدخل بريدك الإلكتروني",
 
-    "contact-label-subject": "الموضوع:",
+    "contact-label-subject": "الموضوع",
     "contact-placeholder-subject": "أدخل الموضوع",
 
-    "contact-label-message": "الرسالة:",
+    "contact-label-message": "الرسالة",
     "contact-placeholder-message": "اكتب رسالتك",
 
-    "contact-label-upload": "رفع ملف:",
+    "contact-label-upload": "رفع ملف",
 
     "button-send": "إرسال",
     "button-reset": "إعادة تعيين",
 
-    "visit-our-store": "قم بزيارة متجرنا:",
-    "map-desc": "استخدم الخريطة أدناه للعثور على موقعنا:",
+    "visit-our-store": "قم بزيارة متجرنا",
+    "map-desc": "استخدم الخريطة أدناه للعثور على موقعنا",
 
     "free-parking": "موقف سيارات مجاني متاح",
     "free-parking-desc": "موقف سيارات مجاني متاح لمرضى وموظفي Medica. <br> يمكنك الوصول إلى موقف السيارات خلف ملاعب البوتشي عبر الممرات [], [], و [].",
@@ -162,16 +158,16 @@
     "refill-header": "أعد تعبئة وصفاتك الطبية",
     "refill-desc": "قم بإعادة تعبئة وصفتك الطبية الحالية عن طريق الاتصال بالصيدلية أو تعبئة النموذج أدناه.<br>بمجرد استلام طلبك، سيتواصل معك أحد أعضاء فريق الصيدلية لتأكيد التفاصيل.",
     "refill-form": "نموذج طلب إعادة التعبئة",
-    "refill-firstname": "الاسم الأول:",
+    "refill-firstname": "الاسم الأول",
     "refill-placeholder-first": "الاسم الأول",
-    "refill-lastname": "اسم العائلة:",
+    "refill-lastname": "اسم العائلة",
     "refill-placeholder-last": "اسم العائلة",
-    "refill-phone": "رقم الهاتف:",
-    "refill-rxNum": "رقم الوصفة الطبية (Rx):",
+    "refill-phone": "رقم الهاتف",
+    "refill-rxNum": "رقم الوصفة الطبية (Rx)",
     "rxNum-text": "يرجى فصل أرقام الوصفات الطبية باستخدام فاصلة",
-    "refill-rxName": "اسم الدواء (اختياري):",
+    "refill-rxName": "اسم الدواء (اختياري)",
     "refill-placeholder-rxName": "مثال: إيبوبروفين 600 مجم",
-    "refill-comments": "تعليقات أو تعليمات إضافية:",
+    "refill-comments": "تعليقات أو تعليمات إضافية",
     "refill-placeholder-comments": "مثال: الرجاء التوصيل قبل الساعة 5 مساءً إلى [العنوان]",
     "confidentiality": "يتم الاحتفاظ بجميع المعلومات الشخصية بسرية تامة.",
 
@@ -181,15 +177,15 @@
     "transfer-header": "انقل وصفاتك الطبية",
     "transfer-desc": "هل ترغب في أن تصبح مريضًا في صيدلية ميديكا؟ يسعدنا استقبالك.<br>يرجى تعبئة النموذج أدناه، وسنتولى الباقي! سيتواصل معك أحد أعضاء فريقنا للتحقق من التفاصيل.",
     "transfer-form": "نموذج طلب النقل",
-    "transfer-firstname": "الاسم الأول:",
+    "transfer-firstname": "الاسم الأول",
     "transfer-placeholder-first": "الاسم الأول",
-    "transfer-lastname": "اسم العائلة:",
+    "transfer-lastname": "اسم العائلة",
     "transfer-placeholder-last": "اسم العائلة",
-    "transfer-phone": "رقم الهاتف:",
-    "transfer-DOB": "تاريخ الميلاد:",
+    "transfer-phone": "رقم الهاتف",
+    "transfer-DOB": "تاريخ الميلاد",
     "transfer-pharmName": "اسم الصيدلية الحالية",
     "transfer-currentNum": "رقم هاتف الصيدلية الحالية",    
-    "transfer-comments": "تعليقات أو تعليمات إضافية:",
+    "transfer-comments": "تعليقات أو تعليمات إضافية",
     "transfer-placeholder-comments": "مثال: الرجاء تجهيز [الوصفة] للاستلام"
     
 }

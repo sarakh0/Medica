@@ -132,7 +132,3 @@ textarea:not(:placeholder-shown):invalid {
   display: flex;
   flex-direction: column;
 }
-
-.numbers-p2 {
-    margin: 0 auto;
-}

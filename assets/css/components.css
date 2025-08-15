@@ -31,7 +31,6 @@
   justify-content: flex-end; /* right */
   align-items: flex-end; /* aligns them at the bottom */
   gap: clamp(0.25rem, 2vw, 0.75rem);
-  margin-top: 6px;
 }
 
 .text-resize-btn {
@@ -140,11 +139,10 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
   background-color: var(--green1);
   border-radius: 3px;
   padding-inline: 7px;
+  height: 100%;
 }
 
 .lang-menu {
-  margin-top: 25px;
-  margin: auto 0;
   position: relative;
 }
 

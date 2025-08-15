@@ -10,6 +10,26 @@
     h3 {
         font-size: 1rem;
     }
+
+    .selected-lang {
+        width: 70px;
+        font-size: 0.8em;
+    }
+
+    .text-resize-btn:nth-child(1) {
+        font-size: 0.75rem;
+    }
+
+    .text-resize-btn:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .text-resize-btn:nth-child(3) {
+        font-size: 1.25rem;
+    }
+
+
+    
 }
 
 @media screen and (max-width:800px) {  /* 800 and down, side bar nav */

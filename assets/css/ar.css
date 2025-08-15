@@ -1,3 +1,24 @@
-main {
-    text-align: left;
+body {
+    text-align: right;
 }
+
+ul, ol {
+    list-style-type: none;
+}
+
+.drop-down{
+    width: 200px;
+}
+
+.services-header {
+    align-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .nav-links {
+        gap: 2.5rem;
+    }
+}
+
+/* fix services drop down */

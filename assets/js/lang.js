@@ -1,8 +1,12 @@
 // Function to change language
 async function changeLanguage(lang) {
   setLanguagePreference(lang);
+
   const langData = await fetchLanguageData(lang);
   updateContent(langData);
+  if (lang === "ar") {
+    toggleArabicStylesheet(lang);
+  }
 }
 
 // Function to set the language preference
@@ -45,7 +49,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const langData = await fetchLanguageData(userPreferredLanguage);
   updateContent(langData);
   updateSelectedLang(userPreferredLanguage);
-
+  toggleArabicStylesheet(userPreferredLanguage);
 });
 
 
@@ -98,3 +102,14 @@ document.addEventListener('DOMContentLoaded', () => {
     dropdownMenu.hidden = isExpanded;
   });
 });
+
+// To add arabic style sheet as it requires right alignment
+function toggleArabicStylesheet(lang) {
+  const head = document.querySelector('head');
+  if (lang === "ar") {
+    const link = document.createElement('link');
+    link.rel = "stylesheet";
+    link.href = "./assets/css/ar.css"
+    head.appendChild(link);
+  }
+}

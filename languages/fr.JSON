@@ -5,12 +5,7 @@
     "services-provided-nav": "SERVICES OFFERTS",
     "contact-us-nav": "NOUS CONTACTER",
 
-    "welcome-msg": "Bienvenue dans la famille Medica!",
-
-    "eng": "Anglais",
-    "fr": "Français",
-    "it": "Italien",
-    "ar": "Arabe",
+    "welcome-msg": "Bienvenue à la Pharmacie Medica !",
 
     "address": "Adresse",
     "get-directions": "Obtenir l'itinéraire",
@@ -68,13 +63,13 @@
     "fv-caption": "Francesco Vella, pharmacien et propriétaire",
     "fv-desc": "",
 
-    "ak-caption": "Amar Khaira, pharmacien",
+    "ak-caption": "Amar, pharmacien",
     "ak-desc": "",
 
-    "ji-caption": "Jeremy Ing, pharmacien",
+    "ji-caption": "Jeremy, pharmacien",
     "ji-desc": "",
 
-    "bm-caption": "Brandon Mousseau, pharmacien",
+    "bm-caption": "Brandon, pharmacien",
     "bm-desc": "",
 
     "the-bocce-court": "Le terrain de bocce",
@@ -129,25 +124,25 @@
 
     "pre-form-message": "Vous nous contactez en dehors des heures d’ouverture ? Envoyez-nous un courriel ou remplissez le formulaire ci-dessous. Nous vous répondrons dès que possible.",
 
-    "contact-label-name": "Nom :",
+    "contact-label-name": "Nom ",
     "contact-placeholder-name": "Entrez votre nom",
 
-    "contact-label-email": "Courriel :",
+    "contact-label-email": "Courriel ",
     "contact-placeholder-email": "Entrez votre courriel",
 
-    "contact-label-subject": "Sujet :",
+    "contact-label-subject": "Sujet ",
     "contact-placeholder-subject": "Entrez le sujet",
 
-    "contact-label-message": "Message :",
+    "contact-label-message": "Message ",
     "contact-placeholder-message": "Écrivez votre message",
 
-    "contact-label-upload": "Joindre un fichier :",
+    "contact-label-upload": "Joindre un fichier ",
 
     "button-send": "Envoyer",
     "button-reset": "Réinitialiser",
 
-    "visit-our-store": "Visitez notre magasin :",
-    "map-desc": "Utilisez la carte ci-dessous pour trouver notre emplacement :",
+    "visit-our-store": "Visitez notre magasin ",
+    "map-desc": "Utilisez la carte ci-dessous pour trouver notre emplacement ",
 
     "free-parking": "Stationnement gratuit disponible",
     "free-parking-desc": "Le stationnement gratuit est disponible pour les patients et le personnel de Medica. <br> Vous pouvez accéder au parking derrière les terrains de bocce via les ruelles [], [], et [].",
@@ -159,16 +154,16 @@
     "refill-header": "Renouvelez vos ordonnances",
     "refill-desc": "Renouvelez votre ordonnance existante en contactant la pharmacie ou en remplissant le formulaire ci-dessous.<br>Une fois votre demande reçue, un membre de notre équipe de pharmacie vous contactera pour confirmer les détails.",
     "refill-form": "Formulaire de demande de renouvellement",
-    "refill-firstname": "Prénom :",
+    "refill-firstname": "Prénom ",
     "refill-placeholder-first": "Prénom",
-    "refill-lastname": "Nom de famille :",
+    "refill-lastname": "Nom de famille ",
     "refill-placeholder-last": "Nom de famille",
-    "refill-phone": "Numéro de téléphone :",
-    "refill-rxNum": "Numéro d’ordonnance (Rx) :",
+    "refill-phone": "Numéro de téléphone ",
+    "refill-rxNum": "Numéro d’ordonnance (Rx) ",
     "rxNum-text": "Veuillez séparer les numéros d’ordonnance par une virgule",
-    "refill-rxName": "Nom du médicament (optionnel) :",
+    "refill-rxName": "Nom du médicament (optionnel) ",
     "refill-placeholder-rxName": "Ex. Ibuprofène 600mg",
-    "refill-comments": "Commentaires ou instructions supplémentaires :",
+    "refill-comments": "Commentaires ou instructions supplémentaires ",
     "refill-placeholder-comments": "Ex. Veuillez livrer avant 17h à [adresse]",
     "confidentiality": "Toutes les informations personnelles sont strictement confidentielles.",
 
@@ -178,15 +173,15 @@
     "transfer-header": "Transférez vos ordonnances",
     "transfer-desc": "Vous souhaitez devenir patient chez Medica Pharmacy ? Nous serions ravis de vous accueillir.<br>Remplissez le formulaire ci-dessous, et nous nous occuperons du reste ! Un membre de notre équipe vous contactera pour vérifier les détails.",
     "transfer-form": "Formulaire de demande de transfert",
-    "transfer-firstname": "Prénom :",
+    "transfer-firstname": "Prénom ",
     "transfer-placeholder-first": "Prénom",
-    "transfer-lastname": "Nom de famille :",
+    "transfer-lastname": "Nom de famille ",
     "transfer-placeholder-last": "Nom de famille",
-    "transfer-phone": "Numéro de téléphone :",
-    "transfer-DOB": "Date de naissance :",
+    "transfer-phone": "Numéro de téléphone ",
+    "transfer-DOB": "Date de naissance ",
     "transfer-pharmName": "Nom de la pharmacie actuelle",
     "transfer-currentNum": "Numéro de téléphone de la pharmacie actuelle",
-    "transfer-comments": "Commentaires ou instructions supplémentaires :",
+    "transfer-comments": "Commentaires ou instructions supplémentaires ",
     "transfer-placeholder-comments": "Ex. Veuillez préparer [ordonnance] pour le retrait"
     
 }

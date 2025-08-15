@@ -95,8 +95,8 @@ header {
   color: var(--primary);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-inline: 1rem;
+  margin-top: 0.5rem;
 }
 
 .page-title {   
@@ -180,9 +180,20 @@ header {
   transition: width 0.3s;
 }
 
-.nav-links .underline a:hover::after,
-.nav-links .underline a.active::after {
+.nav-links .underline a:hover::after {
   width: 100%;
+}
+
+.nav-links a.active::after {
+  width: 100%;
+  content: '';
+  display: block;
+  height: 2px;
+  background: var(--lightTextHover);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s;
 }
 
 #open-sidebar-button{
