@@ -65,13 +65,134 @@
   gap: clamp(1rem, 5vw, 3rem);
 }
 
-.mini-about p, .mini-about ul, .mini-about h3 {
+/* .mini-about p, .mini-about ul, .mini-about h3 {
     margin-top: 1rem;
-}
+} */
 
 .mini-about ul {
   padding-left: 2rem;
 }
+
+/* mini about reviews */
+
+.review{
+  padding: 1rem;
+  max-width: 500px;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.head-review {
+  margin: 1.125rem auto;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1.25rem;
+}
+
+.head-review img {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  background-color: var(--lightTextHover);
+  object-fit: cover;
+  /* border: 7px solid var(--mainText); */
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .20);
+}
+
+.body-review{
+  background-color: var(--lightTextHover);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, .25);
+
+}
+
+/* ensure same padding for long reviews with read more button */
+#long1, #long2 {
+  padding-bottom: 1.5rem;
+}
+
+.name-review{
+  font-size: 1.25em;
+  font-weight: 600;
+  color: var(--mainText);
+}
+
+.time-review {
+  font-style: italic;
+  color: var(--green1);
+}
+
+.rating{
+  color: var(--star);
+}
+
+.desc-review{
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  color: rgb(150, 150, 150);
+}
+
+.desc-review .extra {
+  display: none;
+}
+
+.desc-review p {
+  display: inline;
+}
+
+.desc-review input[type="checkbox"]{
+  height: 2em;
+  display: none;
+  appearance: none;
+}
+
+.desc-review label {
+  position: relative;
+  font-style: italic;
+  color: var(--green1);
+  cursor: pointer;
+  padding-top: 0.5rem;
+}
+
+.desc-review label::before {
+  content: "Read More";
+}
+
+.desc-review input[type="checkbox"]:checked ~ label::before {
+  content: "Read Less";
+}
+
+.dots:has(~input[type="checkbox"]:checked) {
+  display: none;
+}
+
+.extra:has(~input[type="checkbox"]:checked){
+  display: block;
+}
+
+.more-reviews {
+  padding: 0.125rem 1rem;  
+  max-width: 500px;
+  margin: 0 auto; 
+  text-align: center;  
+}
+
+.more-reviews a {
+  display: block; 
+  padding: 0.25rem;
+  background-color: var(--lightTextHover);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, .25);
+  border-radius: 12px; 
+  color: var(--mainText);
+}
+
+.more-reviews a:hover {
+  background-color: var(--mainText);
+  color: var(--lightTextHover);
+}
+
 
 /* app promo */
 

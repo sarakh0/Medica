@@ -161,9 +161,17 @@
     .mini-about {
         flex-direction: row;
     }
-    /* .google-reviews {
-        vertical-align: middle;
-    } */
+
+    .review {
+        max-width: 400px;
+    }
+    .reviews {
+        display: flex;
+    }
+
+    .more-reviews {
+        max-width: 100%;
+    }
 
     /* ABOUT US PAGE */
     .rph-container {
