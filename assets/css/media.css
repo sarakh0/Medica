@@ -80,6 +80,11 @@
     #open-sidebar-button, #close-sidebar-button {
         display: block;
     }  
+
+    /* ABOUT US PAGE */
+    .bocce img {
+        height: auto;
+    }
 }
 
 @media screen and (min-width:800px) {  /* 800 and up, align drop down icon with header */
@@ -231,9 +236,7 @@
     footer {
         padding-inline: 15vw;
     }
-    .rph {
-        display: flex;
-    } 
+    
     .bocce {
         display: flex;
         justify-content: space-around;
@@ -244,7 +247,8 @@
 
     /* ABOUT US PAGE */
     .rph-container p {
-        max-width: 50%;
+        margin-inline: 3rem;
+        text-align: left;
     }
 }
 

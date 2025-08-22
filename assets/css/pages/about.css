@@ -13,7 +13,7 @@
 
 .rph p {
     max-width: 100%;
-    margin: 1rem ;
+    margin: 0.5rem ;
 }
 
 .rph img {
@@ -32,6 +32,6 @@
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
     border-radius: 5px; 
 }
