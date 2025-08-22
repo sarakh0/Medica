@@ -116,10 +116,6 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
   transform: rotate(180deg);
 }
 
-.services-header a { /* aligns the icon with the header */
-  display: flex
-}
-
 .services-header {
   position: relative; 
 }

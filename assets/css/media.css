@@ -82,6 +82,13 @@
     }  
 }
 
+@media screen and (min-width:800px) {  /* 800 and up, align drop down icon with header */
+
+    .services-header a { /* aligns the icon with the header */
+        display: flex
+    }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
@@ -120,7 +127,8 @@
 
     footer .facebook p{
         max-width: 95%;
-    }  
+    } 
+    
 }
 
 /* Large devices (laptops/desktops, 900px and up) */
