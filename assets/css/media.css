@@ -205,7 +205,11 @@
     }
     .desc {
         max-width: 50%;
-    }     
+    } 
+    /* for sections without pictures */
+    #vaccinations .desc, #multilingual .desc {
+        max-width: 100%;
+    }    
 
     /* CONTACT US PAGE */
     .get-in-touch p{

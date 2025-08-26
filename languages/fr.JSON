@@ -99,7 +99,7 @@
     "service4-list1": "Surveillance régulière de l'INR",
     "service4-list2": "Ajustements immédiats de la dose (pas besoin d’attendre un rendez-vous médical)",
     "service4-list3": "Éducation personnalisée et conseils sur le mode de vie pour atteindre les objectifs visés",
-    "service4-closing-download": "Parlez à un pharmacien pour plus de détails. <br>[Téléchargez notre formulaire de recommandation ici – Formulaire-Recommandation-Anticoagulant-Medica]",
+    "service4-closing-download": "Parlez à un pharmacien pour plus de détails. <br>Téléchargez notre formulaire de recommandation ici",
 
     "service5-desc": "Les piluliers, fabriqués et vérifiés à la main par notre personnel, organisent vos médicaments dans des cases claires et étiquetées pour chaque moment de la journée (Petit-déjeuner, Déjeuner, Dîner, Coucher), pour une ou deux semaines à la fois. Ils sont recommandés pour les patients ayant des schémas thérapeutiques complexes ou déroutants afin de favoriser une prise correcte et réduire les erreurs. <br>Intéressé par les piluliers ? Parlez-en à l’un de nos pharmaciens aujourd’hui.",
 
@@ -148,7 +148,7 @@
     "map-desc": "Utilisez la carte ci-dessous pour trouver notre emplacement ",
 
     "free-parking": "Stationnement gratuit disponible",
-    "free-parking-desc": "Le stationnement gratuit est disponible pour les patients et le personnel de Medica. <br> Vous pouvez accéder au parking derrière les terrains de bocce via les ruelles [], [], et [].",
+    "free-parking-desc": "Le stationnement gratuit est disponible pour les patients et le personnel de Medica. <br> Vous pouvez accéder au parking derrière les terrains de bocce via les ruelles.",
 
 
 
