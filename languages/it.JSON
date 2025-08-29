@@ -1,5 +1,5 @@
 {
-    "title-index": "Medica Farmacia",
+    "title-index": "Farmacia Medica",
     "home-nav": "HOME",
     "about-us-nav": "CHI SIAMO",
     "services-provided-nav": "SERVIZI OFFERTI",
@@ -11,21 +11,21 @@
     "get-directions": "Ottieni indicazioni",
     "store-hours": "Orari di apertura",
     "store-hours-text": "Lun - Ven:9:00–19:00 <br> Sab:9:00–16:00<br>Dom:10:00–14:00",
-    "contact-us": "Contatto",
+    "contact-us": "Contattaci",
     "phone-fax": "Telefono: (519) 255-7777<br>Fax: (519) 255-7778",
     "email-us": "Scrivici un'email",
     "facebook-desc": "Seguici su Facebook per <br> ricevere aggiornamenti, notizie <br> e storie dalla Farmacia Medica.",
     "facebook-desc-footer": "<b>Hai commenti o domande? Dai un'occhiata alla nostra pagina Facebook</b>",
 
     "services-provided": "Servizi Offerti",
-    "services-desc": "Presso la Farmacia Medica offriamo una gamma di servizi sanitari su misura per le tue esigenze. Dai rinnovi delle prescrizioni alle consulenze personalizzate, scopri cosa possiamo fare per te.",
+    "services-desc": "La Farmacia Medica offra una gamma di servizi sanitari su misura per le tue esigenze. Dai rinnovi delle prescrizioni alle consulenze personalizzate, scopri cosa possiamo fare per te.",
     "service1": "Consultazione con il farmacista",
     "service2": "Cura per disturbi minori",
-    "service3": "Misurazioni della pressione sanguigna",
+    "service3": "Misurazioni della pressione",
     "service4": "Gestione dell'anticoagulazione",
-    "service5": "Confezioni settimanali",
+    "service5": "Confezioni strutturate settimanali",
     "service6": "Consegna gratuita a domicilio",
-    "service7": "Calze e gambaletti a compressione",
+    "service7": "Calze e gambaletti di compressione",
     "service8": "Vaccinazioni e immunizzazioni",
     "service9": "Servizi multilingue",
 
@@ -33,12 +33,12 @@
     "transfer": "Trasferisci le tue prescrizioni",
 
     "mini-about-title": "Orgogliosamente locale, amati dalla comunità",
-    "mini-about-desc": "La Farmacia Medica è orgogliosa di essere a gestione locale e profondamente radicata nella comunità di Erie Street e nella comunità italiana. Siamo onorati di far parte di una comunità straordinaria piena di persone meravigliose, e ci impegniamo sempre a sostenere e sviluppare ulteriormente la comunità attraverso la nostra cura e le nostre azioni.<br>Non vediamo l'ora di darti il benvenuto nella famiglia Medica!",
+    "mini-about-desc": "La Farmacia Medica è orgogliosa di essere in gestione locale nella comunità Italiana di Erie Street. Siamo onorati di far parte di una comunità straordinaria piena di persone meravigliose, e ci impegniamo sempre a sostenere e sviluppare ulteriormente la comunità attraverso la nostra cura e le nostre azioni.<br>Non vediamo l'ora di darti il benvenuto nella famiglia Medica!",
 
     "what-makes-us-diff": "Cosa ci rende diversi",
 
     "what-1": "<b>Servizio rapido:</b> Le nuove prescrizioni sono spesso pronte in pochi minuti.",
-    "what-2": "<b>Assistenza personalizzata:</b> Il nostro farmacista si prende il tempo per ascoltarti, rispondere alle tue domande e assicurarsi che tu capisca completamente i tuoi farmaci.",
+    "what-2": "<b>Assistenza personalizzata:</b> Il nostro farmacista prende il tempo per ascoltarti, rispondere alle tue domande e assicurarsi che tu capisca completamente i tuoi farmaci.",
     "what-3": "<b>Veniamo noi da te:</b> Se hai una prescrizione ma non puoi venire in farmacia, veniamo noi. Il nostro team ritirerà la tua prescrizione e consegnerà i farmaci quando saranno pronti.",
     "what-4": "<b>Sempre disponibili:</b> Siamo aperti sette giorni su sette, inclusi i giorni festivi, quindi c’è sempre qualcuno disponibile ad aiutarti quando ne hai bisogno.",
 
@@ -59,31 +59,32 @@
     "about-us-title": "Chi siamo",
 
     "our-mission": "La nostra missione",
-    "our-mission-text": "Presso Medica Pharmacy, ci dedichiamo a fornire la migliore assistenza possibile a ogni paziente che varca la nostra porta. Crediamo nel costruire relazioni significative con ogni persona e non tratteremo mai nessuno come un numero.<br>La cura del paziente è sempre la nostra massima priorità. Cercheremo sempre nuovi modi per migliorare e ampliare l'assistenza che offriamo per soddisfare le esigenze della nostra comunità.<br>Una farmacia rappresenta uno dei punti di accesso più facilmente raggiungibili per l'assistenza sanitaria, ed è nostra responsabilità rispondere alle domande e alle preoccupazioni di tutti i pazienti che cercano il nostro aiuto. Ogni paziente merita il nostro tempo e impegno, e ci impegniamo ad aiutarti a sviluppare un piano di cura personalizzato che funzioni per te. Che tu ci stia visitando per la prima volta o che sia con noi da anni, ti invitiamo a fare domande, condividere feedback e rimanere in contatto. Siamo sempre felici di sentirti.",
+    "our-mission-text": "La Farmacia Medica si dedica a fornire la migliore assistenza possibile a ogni paziente. Crediamo nel costruire di relazioni significative con ogni persona e non tratteremo mai nessuno come un numero.<br>La cura del paziente è sempre la nostra massima priorità. Cercheremo sempre nuovi modi per migliorare e ampliare l'assistenza che offriamo per soddisfare le esigenze della nostra comunità.<br>Una farmacia rappresenta uno dei punti di accesso più facilmente raggiungibili per l'assistenza sanitaria, ed è nostra responsabilità rispondere alle domande e alle preoccupazioni di tutti i pazienti che cercano il nostro aiuto. Ogni paziente merita il nostro tempo e impegno, e noi, ci impegniamo ad aiutarti a sviluppare un piano di cura personalizzato che funzioni per te. Che tu ci stia visitando per la prima volta o che sia con noi da anni, ti invitiamo a fare domande, condividere feedback e rimanere in contatto. Siamo sempre felici di sentirti.",
 
     "meet-your-rph": "Incontra il tuo farmacista!",
 
     "fv-caption": "Francesco Vella, farmacista e proprietario",
-    "fv-desc": "",
 
     "ak-caption": "Amar, farmacista",
-    "ak-desc": "",
 
     "ji-caption": "Jeremy, farmacista",
-    "ji-desc": "",
 
     "bm-caption": "Brandon, farmacista",
-    "bm-desc": "",
+
+    "fv-desc": "Francesco si è laureato in farmacia oltre 20 anni fa e ha iniziato a praticare in Canada nel 2008. Ha scelto la carriera in farmacia per seguire la sua passione di aiutare gli altri. La decisione di aprire Medica Pharmacy è nata dal desiderio di restituire qualcosa alla comunità e lasciare un retaggio come farmacista. Fuori dalla farmacia, Francesco ama giocare a golf e a scacchi.",
+    "ji-desc": "Jeremy ha iniziato la sua carriera in farmacia solo un anno prima di contribuire all’apertura di Medica nel 2019. Essendo parte del team fin dall’inizio, considera il lavoro a Medica come far parte di una famiglia.",
+    "ak-desc": "Amar è un farmacista dedicato che lavora presso Medica Pharmacy. Lavora in farmacia dal 2016 ed è entrato a far parte di Medica nel 2019, poco dopo la sua apertura.",
+    "bm-desc": "Brandon è farmacista dal 2011 e, con oltre dieci anni di esperienza, si è unito al team di Medica nel 2025. Fuori dalla farmacia, si dedica alla musica e ama trascorrere del tempo di qualità con la sua famiglia.",
 
     "the-bocce-court": "Il campo da bocce",
-    "bocce-text": "Avrai forse notato i campi da bocce accanto alla farmacia. Il bocce è un gioco tradizionale italiano, apprezzato anche da molte altre culture, noto come \"boules\" in Francia e simile al gioco del bowling su prato in Inghilterra. È un gioco di abilità, strategia e divertimento.<br>Questi campi sono stati costruiti dal proprietario di Medica Pharmacy, Francesco Vella, come modo per migliorare la parte est di Erie Street e creare uno spazio che riunisca persone da ogni dove. Che tu stia partecipando a una partita o semplicemente passando per un gelato dall'altra parte della strada, sei sempre il benvenuto a goderti l'atmosfera al campo.",
+    "bocce-text": "Avete forse notato i campi da bocce accanto alla farmacia. Il bocce è un gioco tradizionale italiano, apprezzato anche da molte altre culture, chiamato \"boules\" in Francia e simile al gioco del bowling su prato in Inghilterra. È un gioco di abilità, strategia e divertimento.<br>Questi campi sono stati costruiti dal proprietario della Farmacia Medica, Francesco Vella, come modo per migliorare l'ambiente nel ceutro di Erie Street e creare uno spazio che riunisca la comunita. Che tu stia partecipando a una partita o semplicemente passando per un gelato dall'altra parte della strada, siete sempre benvenuti a godervi l'atmosfera.",
 
 
 
     "title-services": "Servizi",
     "services-header": "Servizi Offerti",
 
-    "service1-desc": "I nostri farmacisti sono sempre felici di parlare con i pazienti per rispondere alle domande e affrontare qualsiasi preoccupazione. Offriamo revisioni dei farmaci per aiutarti a comprendere meglio le tue prescrizioni e garantire che funzionino efficacemente per te. Per soddisfare le tue esigenze, i nostri farmacisti sono disponibili per consulenze telefoniche o di persona nelle sale di consultazione private della Farmacia Medica.",
+    "service1-desc": "I nostri farmacisti sono sempre felici di parlare con i pazienti per rispondere alle domande e affrontare qualsiasi preoccupazione. Offriamo revisioni dei farmaci per aiutarti a comprendere meglio le tue prescrizioni e garantire che funzionino efficacemente per te. Per soddisfare le tue esigenze, i nostri farmacisti sono disponibili per consulenze telefoniche o di persona nelle sale di consulenze private della Farmacia Medica.",
 
     "service2-desc": "I nostri farmacisti sono qualificati per valutare e prescrivere trattamenti per una varietà di problemi di salute quotidiani, rendendo le cure più accessibili quando ne hai bisogno.<br>Possiamo aiutarti con:",    "service2-list1": "Disturbi comuni: allergie stagionali, congiuntivite, bruciore di stomaco, nausea in gravidanza e problemi orali come herpes labiale o mughetto.",
     "service2-list2": "Problemi cutanei: acne, eruzioni cutanee, eczema, dermatite (incluso l'eritema da pannolino), punture d’insetti e orticaria.",

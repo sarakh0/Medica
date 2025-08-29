@@ -38,7 +38,7 @@
     .drop-down {
         display: none !important;
     }
-    .services-header .dropdown-icon {
+    #services-header .dropdown-icon {
         display: none;
     }
 
@@ -89,7 +89,7 @@
 
 @media screen and (min-width:800px) {  /* 800 and up, align drop down icon with header */
 
-    .services-header a { /* aligns the icon with the header */
+    #services-header a { /* aligns the icon with the header */
         display: flex
     }
 }
@@ -251,7 +251,7 @@
 
     /* ABOUT US PAGE */
     .rph-container p {
-        margin-inline: 3rem;
+        margin-inline: 1rem;
         text-align: left;
     }
 }

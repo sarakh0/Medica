@@ -112,15 +112,15 @@ h2, h3, p, a,.btn { /* smoother transition through sizes */
   transition: transform 0.3s ease;
 }
 
-.services-header:hover .dropdown-icon { /* rotate the icon 180deg*/
+#services-header:hover .dropdown-icon { /* rotate the icon 180deg*/
   transform: rotate(180deg);
 }
 
-.services-header {
+#services-header {
   position: relative; 
 }
 
-.services-header:hover .drop-down { /* drop down appears on hover */
+#services-header:hover .drop-down { /* drop down appears on hover */
   display: block;
 }
 
