@@ -1,8 +1,8 @@
-/*test*/
+/* video background */
 .video-background {
   position: relative;
   width: 100%;
-  height: clamp(200px, 50vw, 400px);
+  height: clamp(200px, 55vw, 430px);
   overflow: hidden;
 }
 
